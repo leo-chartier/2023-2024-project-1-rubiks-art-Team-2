@@ -10,8 +10,8 @@
 - [Personas and use cases](#personas-and-use-cases)
 - [Evaluation criteria](#evaluation-criteria)
 - [Proposed designs](#proposed-designs)
-  - [Selected solution](#selected-solution)
   - [Disregarded solutions](#disregarded-solutions)
+  - [Selected solution](#selected-solution)
 - [Non-functional specifications](#non-functional-specifications)
 - [Maintaining](#maintaining)
 - [Glossary](#glossary)
@@ -72,9 +72,22 @@ Additionally, recording of the construction must be provided in the form of a vi
 
 ## Proposed designs
 
+### Disregarded solutions
+
+<img alt="ALGOSUP" src="./../Images/Unselected1.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Unselected2.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Unselected3.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Unselected4.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Unselected5.png" width="200"> 
+
+During the research process we experimented a few design. As you can see they weren't very eye-pleasing. The first image shows how colors could be saturated by using strong colors without balancing the image's colors properly. The following images are showing how white, green and yellow could make the image unreadable for the eye. Taking this into consideration, we choosed to avoid green and yellow, and use far less white.
+
 ### Selected solution
 
-### Disregarded solutions
+<img alt="ALGOSUP" src="./../Images/SelectedFresco.png" width="300"> 
+
+This image is the fresco selected by the entierety of our team. We choose this solution for it's simplicity, this view of the building show how important are ALGOSUP's roots within the city of Vierzon. Moreover, on the bottom left, you can see a QR code, this code redirect directly to ALGOSUP's official website.
+
 
 ## Non-functional specifications
 
