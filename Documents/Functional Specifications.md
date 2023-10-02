@@ -48,7 +48,10 @@ The library may have to be rearranged or moved in order to make the fresco more 
 
 ## Scope
 
-The main objective is to create a fresco that is both accepted by ALGOSUP and eye-pleasing.
+The main objective is to create a fresco that is both accepted by ALGOSUP and eye-pleasing. The fresco will be a permenent feature of the school "ALGOSUP", and will be made visible by people from outside.
+It is necessary for the fresco to adhere to certain restrictions, the fresco should make be in between 2000 to 3000 rubiks cubes, the fresco must include an image of the B3 building, the fresco must have a height length of maximum 60 feets, and also it must be of rectangular form. 
+
+The project has a timeframe of 5 weeks, and the deadline of the project is on the 26/10/2023.
 
 ## Personas and use cases
 
@@ -136,7 +139,7 @@ We also thought of creating a two-faced fresco, for people outside of the school
 
 ## Risks and assumptions
 
-The main risk of the project is, not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel. 
+The main risk of the project is, not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel, by so doing, we are sure of neither exceeding nor not reaching the desired interval of rubiks cube for the fresco. 
 
 ## Non-functional requirements
 
