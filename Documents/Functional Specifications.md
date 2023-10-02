@@ -88,8 +88,8 @@ During the research process we experimented a few design. As you can see they we
 
 ## Risks and assumptions
 
-The main risk of the project is not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel. 
-Moreover, in case, to make a rubik cube is to difficult, there are some rubik' cube tutorial on youtube on how to assemble all side of the rubik's cube per color.
+The main risk of the project is, not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel. 
+
 ## Non-functional specifications
 
 
