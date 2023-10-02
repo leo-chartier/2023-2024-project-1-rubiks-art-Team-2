@@ -13,7 +13,7 @@
     - [Selected solution](#selected-solution)
     - [Test phase](#test-phase)
   - [Risks and assumptions](#risks-and-assumptions)
-  - [Non-functional specifications](#non-functional-specifications)
+  - [Non-functional requirements](#non-functional-requirements)
   - [Maintaining](#maintaining)
   - [Glossary](#glossary)
 
@@ -84,12 +84,15 @@ This image is the fresco selected by the entierety of our team. We choose this s
 
 During the research process we experimented a few design. As you can see they weren't very eye-pleasing. The first image shows how colors could be saturated by using strong colors without balancing the image's colors properly. The following images are showing how white, green and yellow could make the image unreadable for the eye. Taking this into consideration, we choosed to avoid green and yellow, and use far less white.
 
+We also thought of creating a two-faced fresco, for people outside of the school and for the students and the staff. However we quickly found that the time required and the difficulty of such task is greater than what we can realistically offer.
+
 ## Risks and assumptions
 
 The main risk of the project is, not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel. 
 
-## Non-functional specifications
+## Non-functional requirements
 
+We have few to none non-functional requirements, the main one is the QR code disposed on the bottom left of the fresco, as previously mentioned, the QR code is redirecting on ALGOSUP's official website.
 
 ## Maintaining
 
