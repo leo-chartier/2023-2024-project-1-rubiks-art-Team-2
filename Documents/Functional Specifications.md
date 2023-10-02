@@ -53,9 +53,7 @@ The main objective is to create a fresco that is both accepted by ALGOSUP and ey
 ## Personas and use cases
 
 Yves: Citizen of Vierzon who often passes by the "rue de la société française". He is 56 years old and has 2 children (a 17 years old daughter and a 15 years old son). He doesn't know any school in the city.  
-<!-- TODO: Reformulate
-If he sees the fresco everyday, he will see ALGOSUP's name and one day he will be curious and search for informations about it. He will talk about the school to his sons and maybe one of them will either talk to their friends about the school or even join ALGOSUP.
--->
+He passes in front of the B3 every day, and will often glance at the fresco. One day, his intrests get the better of him and he decides to learn more about it. Interested, he tells about the school to his sons who share the information to their friends at school and think about joining ALGOSUP themselves.
 
 ## Evaluation criteria 
 
@@ -88,7 +86,7 @@ During the research process we experimented a few design. As you can see they we
 
 ## Risks and assumptions
 
-The main risk of the project is, not succeding in the creation of a well presentable [pixel](#pixel) image containing the needed interval of rubik cubes, as such a software program will be used for the creation of a [pixel](#pixel) image, that originate from a real image while considering the fact that one image [pixel](#pixel) is the same as one cube [pixel](#pixel). 
+The main risk of the project is, not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel. 
 
 ## Non-functional specifications
 
