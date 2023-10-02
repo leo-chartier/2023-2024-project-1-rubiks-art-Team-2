@@ -3,18 +3,19 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Overview](#overview)
-- [Stakeholders](#stakeholders)
-- [Scope](#scope)
-- [Personas and use cases](#personas-and-use-cases)
-- [Evaluation criteria](#evaluation-criteria)
-- [Proposed designs](#proposed-designs)
-  - [Selected solution](#selected-solution)
-  - [Disregarded solutions](#disregarded-solutions)
-- [Risks and assumptions](#risks-and-assumptions)
-- [Non-functional specifications](#non-functional-specifications)
-- [Maintaining](#maintaining)
-- [Glossary](#glossary)
+- [Rubik's art](#rubiks-art)
+  - [Overview](#overview)
+  - [Stakeholders](#stakeholders)
+  - [Scope](#scope)
+  - [Personas and use cases](#personas-and-use-cases)
+  - [Evaluation criteria](#evaluation-criteria)
+  - [Proposed designs](#proposed-designs)
+    - [Selected solution](#selected-solution)
+    - [Test phase](#test-phase)
+  - [Risks and assumptions](#risks-and-assumptions)
+  - [Non-functional specifications](#non-functional-specifications)
+  - [Maintaining](#maintaining)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -27,7 +28,7 @@
 ALGOSUP is looking for someone to produce a 60-100 square feet (5.57-9.29 square meter) fresco entirely made of Rubik’s cubes.  
 The fresco will be a permanent feature of the school, displayed in what is currently the library and visible from the outside.
 
-Each cube is to be treated as a 3x3 pixel matrix with each panel being a pixel of either green, yellow, red, orange, blue or white color.  
+Each cube is to be treated as a 3x3 [pixel](#pixel) [matrix](#matrix) with each panel being a [pixel](#pixel) of either green, yellow, red, orange, blue or white color.  
 The library may have to be rearranged or moved in order to make the fresco more visible.
 
 ## Stakeholders 
@@ -77,24 +78,30 @@ Additionally, recording of the construction must be provided in the form of a vi
 
 This image is the fresco selected by the entierety of our team. We choose this solution for it's simplicity, this view of the building show how important are ALGOSUP's roots within the city of Vierzon. Moreover, on the bottom left, you can see a QR code, this code redirect directly to ALGOSUP's official website.
 
-### Disregarded solutions
+### Test phase
 <img alt="ALGOSUP" src="./../Images/Unselected1.png" width="200"> 
 <img alt="ALGOSUP" src="./../Images/Unselected2.png" width="200"> 
 <img alt="ALGOSUP" src="./../Images/Unselected3.png" width="200"> 
 <img alt="ALGOSUP" src="./../Images/Unselected4.png" width="200"> 
-<img alt="ALGOSUP" src="./../Images/Unselected5.png" width="200"> 
 
 During the research process we experimented a few design. As you can see they weren't very eye-pleasing. The first image shows how colors could be saturated by using strong colors without balancing the image's colors properly. The following images are showing how white, green and yellow could make the image unreadable for the eye. Taking this into consideration, we choosed to avoid green and yellow, and use far less white.
 
 ## Risks and assumptions
 
-The main risk of the project is, not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel. 
+The main risk of the project is, not succeding in the creation of a well presentable [pixel](#pixel) image containing the needed interval of rubik cubes, as such a software program will be used for the creation of a [pixel](#pixel) image, that originate from a real image while considering the fact that one image [pixel](#pixel) is the same as one cube [pixel](#pixel). 
 
 ## Non-functional specifications
 
 
 ## Maintaining
-<!-- If necessary -->
+
+The maintenance is an essential part of every project, particulary with artistic projects. The fresco will need to be properly cleaned to keep the image visible. The fresco might also be destroyed or small parts can be disasembled by accident, to overcome this, a member of the group will have to visit the fresco during each breaks to see if a part is missing or on the ground.
+
+As for the cleaning, a quick wipe should suffice to clean the dust from the cubes.
 
 
 ## Glossary
+<span id="matrix">Matrix</span>: A rectangular table of quantities or expressions in rows and columns that is treated as a single entity and manipulated according to particular rules.
+
+<span id="pixel">Pixel</span>: the smallest unit of an image on a television or computer screen
+
