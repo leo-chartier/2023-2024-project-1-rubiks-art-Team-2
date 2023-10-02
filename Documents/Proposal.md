@@ -7,7 +7,7 @@ We are excited to present our proposal for the Rubik’s Art Fresco project, as 
 
 **2. Ideas:**
 
-Our ideas to this project is based on a meticulous combination of creativity, imagination, and strategic planning.
+Our ideas for this project are based on a meticulous combination of creativity, imagination, and strategic planning. We are aiming to provide you with an innovative solution combining the effeciency of our algorithms to the splendor of the B3.
 
 
 **3. Compliance with Requirements:**
