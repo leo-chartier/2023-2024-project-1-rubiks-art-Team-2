@@ -6,12 +6,12 @@
 - [Overview](#overview)
 - [Stakeholders](#stakeholders)
 - [Scope](#scope)
-- [Risks and assumptions](#risks-and-assumptions)
 - [Personas and use cases](#personas-and-use-cases)
 - [Evaluation criteria](#evaluation-criteria)
 - [Proposed designs](#proposed-designs)
   - [Selected solution](#selected-solution)
   - [Disregarded solutions](#disregarded-solutions)
+- [Risks and assumptions](#risks-and-assumptions)
 - [Non-functional specifications](#non-functional-specifications)
 - [Maintaining](#maintaining)
 - [Glossary](#glossary)
@@ -49,11 +49,6 @@ The library may have to be rearranged or moved in order to make the fresco more 
 
 The main objective is to create a fresco that is both accepted by ALGOSUP and eye-pleasing.
 
-## Risks and assumptions
-
-The main risk of the project is not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel. 
-Moreover, in case, to make a rubik cube is to difficult, there are some rubik' cube tutorial on youtube on how to assemble all side of the rubik's cube per color.
-
 ## Personas and use cases
 
 Yves: Citizen of Vierzon who often passes by the "rue de la société française". He is 56 years old and has 2 children (a 17 years old daughter and a 15 years old son). He doesn't know any school in the city.  
@@ -61,7 +56,7 @@ Yves: Citizen of Vierzon who often passes by the "rue de la société française
 If he sees the fresco everyday, he will see ALGOSUP's name and one day he will be curious and search for informations about it. He will talk about the school to his sons and maybe one of them will either talk to their friends about the school or even join ALGOSUP.
 -->
 
-## Evaluation criteria
+## Evaluation criteria 
 
 The fresco will be evaluated based on some criteria:
 - The overall fresco should not contain more than 3000 cubes and no less than 2000 cubes.
@@ -71,17 +66,35 @@ The fresco will be evaluated based on some criteria:
 - If text is used, it must be in English
 - The cubes must not be disassembled and must be rotated into position
 
-Additionally, recording of the construction must be provided in the form of a video or timelapse for the school's social media.
+Additionally, recording of the construction must be provided in the form of a video or timelapse for the school's social media. 
 
 ## Proposed designs
 
+1.  Some point on the evaluation criteria above will be taken into account when designing the fresco, all proposal on the designing face shall be done by the team members, and the final design have to be approve by all the members. 
+2.  An image software will be used to design fresco so that it matches with the desire number of rubiks cube.
 ### Selected solution
+<img alt="ALGOSUP" src="./../Images/SelectedFresco.png" width="300"> 
+
+This image is the fresco selected by the entierety of our team. We choose this solution for it's simplicity, this view of the building show how important are ALGOSUP's roots within the city of Vierzon. Moreover, on the bottom left, you can see a QR code, this code redirect directly to ALGOSUP's official website.
 
 ### Disregarded solutions
+<img alt="ALGOSUP" src="./../Images/Unselected1.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Unselected2.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Unselected3.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Unselected4.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Unselected5.png" width="200"> 
 
+During the research process we experimented a few design. As you can see they weren't very eye-pleasing. The first image shows how colors could be saturated by using strong colors without balancing the image's colors properly. The following images are showing how white, green and yellow could make the image unreadable for the eye. Taking this into consideration, we choosed to avoid green and yellow, and use far less white.
+
+## Risks and assumptions
+
+The main risk of the project is not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel. 
+Moreover, in case, to make a rubik cube is to difficult, there are some rubik' cube tutorial on youtube on how to assemble all side of the rubik's cube per color.
 ## Non-functional specifications
+
 
 ## Maintaining
 <!-- If necessary -->
+
 
 ## Glossary
