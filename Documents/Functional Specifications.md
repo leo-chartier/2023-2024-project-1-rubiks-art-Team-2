@@ -3,21 +3,22 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Overview](#overview)
-- [Stakeholders](#stakeholders)
-- [Scope](#scope)
-- [Personas and use cases](#personas-and-use-cases)
-  - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
-  - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
-  - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
-- [Evaluation criteria](#evaluation-criteria)
-- [Proposed designs](#proposed-designs)
-  - [Selected solution](#selected-solution)
-  - [Test phase](#test-phase)
-- [Risks and assumptions](#risks-and-assumptions)
-- [Non-functional requirements](#non-functional-requirements)
-- [Maintaining](#maintaining)
-- [Glossary](#glossary)
+- [Rubik's art](#rubiks-art)
+  - [Overview](#overview)
+  - [Stakeholders](#stakeholders)
+  - [Scope](#scope)
+  - [Personas and use cases](#personas-and-use-cases)
+    - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
+    - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
+    - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
+  - [Evaluation criteria](#evaluation-criteria)
+  - [Proposed designs](#proposed-designs)
+    - [Selected solution](#selected-solution)
+    - [Test phase](#test-phase)
+  - [Risks and assumptions](#risks-and-assumptions)
+  - [Non-functional requirements](#non-functional-requirements)
+  - [Maintaining](#maintaining)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -167,8 +168,11 @@ The main risk of the project is, not succeding in the creation of a presentable 
 
 ## Non-functional requirements
 
-There are few to no non-functional requirements.  
-The main one is the QR code disposed on the bottom left of the fresco, which, as previously mentioned, redirects to ALGOSUP's official website.
+During the exploration of the problem we also found multiple non-functional requirements here is the list:
+- The accessibilty of the fresco, including cleaning and a clear view of it.
+- A documentation of the procede to reproduce/repair the fresco.
+- The safety of the fresco, to avoid unnecessary destruction.
+- The QR code readability, to access to ALGOSUP's website.
 
 ## Maintaining
 
