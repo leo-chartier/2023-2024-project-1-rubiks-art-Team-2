@@ -3,23 +3,22 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Rubik's art](#rubiks-art)
-  - [Overview](#overview)
-  - [Stakeholders](#stakeholders)
-  - [Scope](#scope)
-  - [Personas and use cases](#personas-and-use-cases)
-    - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
-    - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
-    - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
-  - [Evaluation criteria](#evaluation-criteria)
-  - [Proposed designs](#proposed-designs)
-    - [Selected design solution](#selected-design-solution)
-    - [Selected location](#selected-location)
-    - [Test phase](#test-phase)
-  - [Risks and assumptions](#risks-and-assumptions)
-  - [Non-functional requirements](#non-functional-requirements)
-  - [Maintaining](#maintaining)
-  - [Glossary](#glossary)
+- [Overview](#overview)
+- [Stakeholders](#stakeholders)
+- [Scope](#scope)
+- [Personas and use cases](#personas-and-use-cases)
+  - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
+  - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
+  - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
+- [Evaluation criteria](#evaluation-criteria)
+- [Proposed designs](#proposed-designs)
+  - [Selected design solution](#selected-design-solution)
+  - [Selected location](#selected-location)
+  - [Earlier test phase](#earlier-test-phase)
+- [Risks and assumptions](#risks-and-assumptions)
+- [Non-functional requirements](#non-functional-requirements)
+- [Maintaining](#maintaining)
+- [Glossary](#glossary)
 
 </details>
 
@@ -51,7 +50,7 @@ The fresco will be a permanent feature of the school, displayed in what is curre
 
 The main objective is to create a fresco that is both accepted by ALGOSUP and eye-pleasing.
 
-Each cube making the fresco is to be treated as a 3x3 pixel[^1] matrix[^2] with each pixel being represented by a panel of either green, yellow, red, orange, blue or white color.  
+Each cube making the fresco is to be treated as a 3x3 pixel[^1] matrix[^2], with each pixel being represented by a panel of either green, yellow, red, orange, blue or white color.  
 
 The library may be rearranged or moved in order to make the fresco more visible.
 
@@ -59,7 +58,7 @@ The ability to take down the fresco to change the image is out of scope.
 
 Resource-wise:
 - The Rubik's cubes will be provided by the client.
-- The team will be expended to 49 people to help make the fresco. The organisation and role-splitting will be described in a later document.
+- The team will be expanded to 49 people to help make the fresco. The organisation and role-splitting will be described in a later document.
 
 Here is a table of milestones and deliverables dates:
 | Date               | Milestone / Deliverable                                                               |
@@ -104,7 +103,7 @@ Balancing artistic expression with technical constraints, and ensuring that the 
 ### 3. Alex - Engineering Enthusiast
 
 *Background:*
-Alex, 28, is an student with a keen interest in robotics and mechanical systems. He is excited about the opportunity to combine his technical skills with artistic expression.
+Alex, 28, is a student from ALGOSUP with a keen interest in robotics and mechanical systems. He is excited about the opportunity to combine his technical skills with artistic expression.
 
 *Goals and Objectives:*
 Alex wants to leverage technology to optimize the cube rotations and assembly process, ensuring precision and efficiency in the creation of the fresco.
@@ -114,7 +113,7 @@ Designing a mechanical system that can seamlessly integrate with the artistic vi
 
 
 ## Evaluation criteria 
-The fresco will be a permanent feature in the school's library, serving as a visual representation of ALGOSUP's identity. It will encompass the following key elements:
+The fresco will be a permanent feature in what is currently the school's library, serving as a visual representation of ALGOSUP's identity. It will encompass the following key elements:
 
 - **ALGOSUP’s Logo:** The logo will be prominently featured as a central element of the design, representing the core identity of ALGOSUP.
 
@@ -125,7 +124,7 @@ The fresco will be a permanent feature in the school's library, serving as a vis
 - **Text (Optional):** If included, any textual elements will be in English and will complement the overall design, conveying a message aligned with ALGOSUP’s values.
 
 - **Dimensions and Layout:**
-The fresco will be rectangular in shape, occupying an area between 60-100 square feet. The layout will be designed to maximize visibility from both the interior of the library and the exterior of the building.
+The fresco will be rectangular in shape, occupying an area between 60 and 100 square feet. The layout will be designed to maximize visibility from both the interior of the library and the exterior of the building.
 
 - **Cubes Utilization:**
 The design will incorporate a minimum of 2000 and a maximum of 3000 Rubik's cubes. Each cube will be treated as a 3x3 pixel matrix, with no disassembly allowed.
@@ -153,17 +152,17 @@ This final version took some time to arrive at and other attempts were made, as 
 
 ### Selected location
 
-We decided to place the fresco in the library, about 1m from the back wall, to leave the sockets accessible. 
+The fresco will be placed about 1m from the back wall of the library, to leave the sockets accessible. 
 
 We had thought of 3 other places to place it: 
 
 - above the sockets, but we were worried that the fresco would fall easily and that the weight of the fresco might damage the sockets, 
 - against the windows, but we wanted to avoid obstructing the luminosity to keep natural light in the room.
-- in the middle of the room, but this would make the library unusable.
+- in the very middle of the room, but this would make the library unusable.
 
 Every option had weaknesses but we've chosen the one that seems the least restrictive.
 
-### Test phase
+### Earlier test phase
 <img alt="ALGOSUP" src="./../Images/Unselected1.png" width="200"> 
 <img alt="ALGOSUP" src="./../Images/Unselected2.png" width="200"> 
 <img alt="ALGOSUP" src="./../Images/Unselected3.png" width="200"> 
@@ -183,7 +182,7 @@ The main risk of the project is, not succeding in the creation of a presentable 
 
 During the exploration of the problem we also found multiple non-functional requirements here is the list:
 - The accessibilty of the fresco, including cleaning and a clear view of it.
-- A documentation of the procede to reproduce/repair the fresco.
+- A documentation of the procedure to reproduce/repair the fresco.
 - The safety of the fresco, to avoid unnecessary destruction.
 - The QR code readability, to access to ALGOSUP's website.
 
