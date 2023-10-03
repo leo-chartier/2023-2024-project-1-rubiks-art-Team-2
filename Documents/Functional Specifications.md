@@ -3,22 +3,23 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Overview](#overview)
-- [Stakeholders](#stakeholders)
-- [Scope](#scope)
-- [Personas and use cases](#personas-and-use-cases)
-  - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
-  - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
-  - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
-- [Evaluation criteria](#evaluation-criteria)
-- [Proposed designs](#proposed-designs)
-  - [Selected design solution](#selected-design-solution)
-  - [Selected location](#selected-location)
-  - [Earlier test phase](#earlier-test-phase)
-- [Risks and assumptions](#risks-and-assumptions)
-- [Non-functional requirements](#non-functional-requirements)
-- [Maintaining](#maintaining)
-- [Glossary](#glossary)
+- [Rubik's art](#rubiks-art)
+  - [Overview](#overview)
+  - [Stakeholders](#stakeholders)
+  - [Scope](#scope)
+  - [Personas and use cases](#personas-and-use-cases)
+    - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
+    - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
+    - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
+  - [Evaluation criteria](#evaluation-criteria)
+  - [Proposed designs](#proposed-designs)
+    - [Selected design solution](#selected-design-solution)
+    - [Selected location](#selected-location)
+    - [Earlier test phase](#earlier-test-phase)
+  - [Risks and assumptions](#risks-and-assumptions)
+  - [Non-functional requirements](#non-functional-requirements)
+  - [Maintaining](#maintaining)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -111,7 +112,6 @@ Alex wants to leverage technology to optimize the cube rotations and assembly pr
 *Challenges:*
 Designing a mechanical system that can seamlessly integrate with the artistic vision and coordinating with the artistic team to implement rotations effectively.
 
-
 ## Evaluation criteria 
 The fresco will be a permanent feature in what is currently the school's library, serving as a visual representation of ALGOSUP's identity. It will encompass the following key elements:
 
@@ -150,6 +150,8 @@ We choose this solution for multiple reason:
 
 This final version took some time to arrive at and other attempts were made, as shown below.
 
+We're still looking for a way to fix the cubes together and make the fresco stand upright. So far, we haven't found a compromise between cost and strength.
+
 ### Selected location
 
 The fresco will be placed about 1m from the back wall of the library, to leave the sockets accessible. 
@@ -157,6 +159,7 @@ The fresco will be placed about 1m from the back wall of the library, to leave t
 We had thought of 3 other places to place it: 
 
 - above the sockets, but we were worried that the fresco would fall easily and that the weight of the fresco might damage the sockets, 
+- above the sockets on a plank, this requires drilling holes in the wall or fixing with glue against the wall, which will damage it.
 - against the windows, but we wanted to avoid obstructing the luminosity to keep natural light in the room.
 - in the very middle of the room, but this would make the library unusable.
 
