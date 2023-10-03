@@ -13,7 +13,8 @@
     - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
   - [Evaluation criteria](#evaluation-criteria)
   - [Proposed designs](#proposed-designs)
-    - [Selected solution](#selected-solution)
+    - [Selected design solution](#selected-design-solution)
+    - [Selected location](#selected-location)
     - [Test phase](#test-phase)
   - [Risks and assumptions](#risks-and-assumptions)
   - [Non-functional requirements](#non-functional-requirements)
@@ -137,7 +138,7 @@ Additionally, recording of the construction must be provided in the form of a vi
 
 ## Proposed designs
 
-### Selected solution
+### Selected design solution
 <img alt="ALGOSUP" src="./../Images/SelectedFresco.png" width="300">
 
 This image was selected for the fresco by the entierety of our team.
@@ -149,6 +150,18 @@ We choose this solution for multiple reason:
 - Accessibility: in the bottom left lies a QR code to ALGOSUP's website for easy access
 
 This final version took some time to arrive at and other attempts were made, as shown below.
+
+### Selected location
+
+We decided to place the fresco in the library, about 1m from the back wall, to leave the sockets accessible. 
+
+We had thought of 3 other places to place it: 
+
+- above the sockets, but we were worried that the fresco would fall easily and that the weight of the fresco might damage the sockets, 
+- against the windows, but we wanted to avoid obstructing the luminosity to keep natural light in the room.
+- in the middle of the room, but this would make the library unusable.
+
+Every option had weaknesses but we've chosen the one that seems the least restrictive.
 
 ### Test phase
 <img alt="ALGOSUP" src="./../Images/Unselected1.png" width="200"> 
