@@ -3,19 +3,21 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Rubik's art](#rubiks-art)
-  - [Overview](#overview)
-  - [Stakeholders](#stakeholders)
-  - [Scope](#scope)
-  - [Personas and use cases](#personas-and-use-cases)
-  - [Evaluation criteria](#evaluation-criteria)
-  - [Proposed designs](#proposed-designs)
-    - [Selected solution](#selected-solution)
-    - [Test phase](#test-phase)
-  - [Risks and assumptions](#risks-and-assumptions)
-  - [Non-functional requirements](#non-functional-requirements)
-  - [Maintaining](#maintaining)
-  - [Glossary](#glossary)
+- [Overview](#overview)
+- [Stakeholders](#stakeholders)
+- [Scope](#scope)
+- [Personas and use cases](#personas-and-use-cases)
+  - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
+  - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
+  - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
+- [Evaluation criteria](#evaluation-criteria)
+- [Proposed designs](#proposed-designs)
+  - [Selected solution](#selected-solution)
+  - [Test phase](#test-phase)
+- [Risks and assumptions](#risks-and-assumptions)
+- [Non-functional requirements](#non-functional-requirements)
+- [Maintaining](#maintaining)
+- [Glossary](#glossary)
 
 </details>
 
@@ -28,34 +30,48 @@
 ALGOSUP is looking for someone to produce a 60-100 square feet (5.57-9.29 square meter) fresco entirely made of Rubik’s cubes.  
 The fresco will be a permanent feature of the school, displayed in what is currently the library and visible from the outside.
 
-Each cube is to be treated as a 3x3 [pixel](#pixel) [matrix](#matrix) with each panel being a [pixel](#pixel) of either green, yellow, red, orange, blue or white color.  
-The library may have to be rearranged or moved in order to make the fresco more visible.
-
 ## Stakeholders 
 
-|                                                   Profile                                                    | Name & link                                                | Description    |
-| :----------------------------------------------------------------------------------------------------------: | ---------------------------------------------------------- | -------------- |
-|            <img alt="ALGOSUP" src="https://avatars.githubusercontent.com/u/69455243" width="30">             | [ALGOSUP](https://www.algosup.com/)                        | Client company |
-|    <img alt="Lucas Aubard" src="https://gravatar.com/avatar/dc3a8fc938e413abe9fb0053201896e7" width="30">    | [Lucas AUBARD](https://github.com/LucasAub)                | Team member    |
-|        <img alt="Documents/VivienBistrelTSANGUECHOUNGOU" src="https://avatars.githubusercontent.com/u/122369054" width="30">         | [Vivien BISTREL](https://github.com/Bistrel2002)           | Team member    |
-|    <img alt="Léo Chartier" src="https://gravatar.com/avatar/c8a06da2c80a003656e90ab4afa49ea8" width="30">    | [Léo CHARTIER](https://github.com/leo-chartier)            | Team member    |
-|  <img alt="Quentin Clément" src="https://gravatar.com/avatar/a8f1bb3cfa42b20d11fb6ddcc9ac5bdf" width="30">   | [Quentin CLÉMENT](https://github.com/Quentin-Clement)      | Team member    |
-| <img alt="Aurélien Fernandez" src="https://gravatar.com/avatar/4a7908c1162aa68cbf3c8c06edc7053d" width="30"> | [Aurélien Fernandez](https://github.com/aurelienfernandez) | Team member    |
-|  <img alt="Thomas Planchard" src="https://gravatar.com/avatar/e73464278d5fb76a24b77a7d79bf39ba" width="30">  | [Thomas Planchard](https://github.com/thomas-planchard)    | Team member    |
-|                   <img alt="Student" src="https://gravatar.com/avatar/0?d=mp" width="30">                    | Students and other building employees                      | End user       |
-|                  <img alt="Passer-by" src="https://gravatar.com/avatar/0?d=mp" width="30">                   | Passer-by                                                  | End user       |
+|                                                        Profile                                                        | Name & link                                                | Description    |
+| :-------------------------------------------------------------------------------------------------------------------: | ---------------------------------------------------------- | -------------- |
+|                 <img alt="ALGOSUP" src="https://avatars.githubusercontent.com/u/69455243" width="30">                 | [ALGOSUP](https://www.algosup.com/)                        | Client company |
+|        <img alt="Lucas Aubard" src="https://gravatar.com/avatar/dc3a8fc938e413abe9fb0053201896e7" width="30">         | [Lucas AUBARD](https://github.com/LucasAub)                | Team member    |
+| <img alt="Documents/VivienBistrelTSANGUECHOUNGOU" src="https://avatars.githubusercontent.com/u/122369054" width="30"> | [Vivien BISTREL](https://github.com/Bistrel2002)           | Team member    |
+|        <img alt="Léo Chartier" src="https://gravatar.com/avatar/c8a06da2c80a003656e90ab4afa49ea8" width="30">         | [Léo CHARTIER](https://github.com/leo-chartier)            | Team member    |
+|       <img alt="Quentin Clément" src="https://gravatar.com/avatar/a8f1bb3cfa42b20d11fb6ddcc9ac5bdf" width="30">       | [Quentin CLÉMENT](https://github.com/Quentin-Clement)      | Team member    |
+|     <img alt="Aurélien Fernandez" src="https://gravatar.com/avatar/4a7908c1162aa68cbf3c8c06edc7053d" width="30">      | [Aurélien Fernandez](https://github.com/aurelienfernandez) | Team member    |
+|      <img alt="Thomas Planchard" src="https://gravatar.com/avatar/e73464278d5fb76a24b77a7d79bf39ba" width="30">       | [Thomas Planchard](https://github.com/thomas-planchard)    | Team member    |
+|                        <img alt="Student" src="https://gravatar.com/avatar/0?d=mp" width="30">                        | Students and other building employees                      | End user       |
+|                       <img alt="Passer-by" src="https://gravatar.com/avatar/0?d=mp" width="30">                       | Passer-by                                                  | End user       |
 
 
 ## Scope
 
-The main objective is to create a fresco that is both accepted by ALGOSUP and eye-pleasing. The fresco will be a permenent feature of the school "ALGOSUP", and will be made visible by people from outside.
-It is necessary for the fresco to adhere to certain restrictions, the fresco should make be in between 2000 to 3000 rubiks cubes, the fresco must include an image of the B3 building, the fresco must have a height length of maximum 60 feets, and also it must be of rectangular form. 
+The main objective is to create a fresco that is both accepted by ALGOSUP and eye-pleasing.
 
-The project has a timeframe of 5 weeks, and the deadline of the project is on the 26/10/2023.
+Each cube making the fresco is to be treated as a 3x3 pixel[^1] matrix[^2] with each pixel being represented by a panel of either green, yellow, red, orange, blue or white color.  
+
+The library may be rearranged or moved in order to make the fresco more visible.
+
+The ability to take down the fresco to change the image is out of scope.
+
+Resource-wise:
+- The Rubik's cubes will be provided by the client.
+- The team will be expended to 49 people to help make the fresco. The organisation and role-splitting will be described in a later document.
+
+Here is a table of milestones and deliverables dates:
+| Date               | Milestone / Deliverable                                                               |
+| ------------------ | ------------------------------------------------------------------------------------- |
+| September 25, 2023 | Invitation to tender                                                                  |
+| October 3, 2023    | Tender pitch and functional specifications (this document) submission                 |
+| October 10, 2023   | Technical specifications (detailed plan) submission, team members aware of their role |
+| October 20, 2023   | Fresco ready for final assembly                                                       |
+| October 26, 2023   | Full assembly and verifications                                                       |
+| October 27, 2023   | Sign-off presentation, team post-project meeting                                      |
 
 ## Personas and use cases
 
-**1 Curious Citizen of Vierzon - Yves**
+### 1. Yves - Curious Citizen of Vierzon
 
 *Background:*
 Yves is a 56-year-old long-time resident of Vierzon, known for frequently strolling down the "rue de la société française." He has two children: a 17-year-old daughter and a 15-year-old son.
@@ -72,7 +88,7 @@ If Yves encounters the fresco every day on his way down the "rue de la société
 *Impact:*
 If Yves learns about ALGOSUP and finds it appealing, he may discuss it with his children. This could potentially lead one of them to share the information with their friends or even consider joining ALGOSUP for their education. Yves' curiosity and engagement with his community could have a positive ripple effect, potentially increasing awareness and interest in the school.
 
-**2. Art Enthusiast - Emily**
+### 2. Emily - Art Enthusiast
 
 *Background:*
 Emily is a 25-year-old student with a passion for unconventional mediums. She thrives on creative challenges and has experience in working with various materials.
@@ -83,7 +99,7 @@ Emily aims to create a visually striking and thought-provoking fresco that not o
 *Challenges:*
 Balancing artistic expression with technical constraints, and ensuring that the final piece effectively represents ALGOSUP's identity.
 
-**3. Engineering Enthusiast - Alex**
+### 3. Alex - Engineering Enthusiast
 
 *Background:*
 Alex, 28, is an student with a keen interest in robotics and mechanical systems. He is excited about the opportunity to combine his technical skills with artistic expression.
@@ -106,13 +122,13 @@ The fresco will be a permanent feature in the school's library, serving as a vis
 
 - **Text (Optional):** If included, any textual elements will be in English and will complement the overall design, conveying a message aligned with ALGOSUP’s values.
 
-- **3. Dimensions and Layout:**
+- **Dimensions and Layout:**
 The fresco will be rectangular in shape, occupying an area between 60-100 square feet. The layout will be designed to maximize visibility from both the interior of the library and the exterior of the building.
 
-- **4. Cubes Utilization:**
+- **Cubes Utilization:**
 The design will incorporate a minimum of 2000 and a maximum of 3000 Rubik's cubes. Each cube will be treated as a 3x3 pixel matrix, with no disassembly allowed.
 
-- **5. Cube Rotation and Positioning:**
+- **Cube Rotation and Positioning:**
 All cubes will be rotated into position to create the desired artistic composition. Sequences of cube rotations will be recorded for documentation and social media content.
 
 
@@ -120,12 +136,18 @@ Additionally, recording of the construction must be provided in the form of a vi
 
 ## Proposed designs
 
-1.  Some point on the evaluation criteria above will be taken into account when designing the fresco, all proposal on the designing face shall be done by the team members, and the final design have to be approve by all the members. 
-2.  An image software will be used to design fresco so that it matches with the desire number of rubiks cube.
 ### Selected solution
-<img alt="ALGOSUP" src="./../Images/SelectedFresco.png" width="300"> 
+<img alt="ALGOSUP" src="./../Images/SelectedFresco.png" width="300">
 
-This image is the fresco selected by the entierety of our team. We choose this solution for it's simplicity, this view of the building show how important are ALGOSUP's roots within the city of Vierzon. Moreover, on the bottom left, you can see a QR code, this code redirect directly to ALGOSUP's official website.
+This image was selected for the fresco by the entierety of our team.
+
+We choose this solution for multiple reason:
+- Simplicity: it catches the eye without being a burden
+- History: this view of the building shows how important ALGOSUP's roots are within Vierzon
+- Growth: the imposing size of the building shows the growth of the school and its students
+- Accessibility: in the bottom left lies a QR code to ALGOSUP's website for easy access
+
+This final version took some time to arrive at and other attempts were made, as shown below.
 
 ### Test phase
 <img alt="ALGOSUP" src="./../Images/Unselected1.png" width="200"> 
@@ -133,27 +155,30 @@ This image is the fresco selected by the entierety of our team. We choose this s
 <img alt="ALGOSUP" src="./../Images/Unselected3.png" width="200"> 
 <img alt="ALGOSUP" src="./../Images/Unselected4.png" width="200"> 
 
-During the research process we experimented a few design. As you can see they weren't very eye-pleasing. The first image shows how colors could be saturated by using strong colors without balancing the image's colors properly. The following images are showing how white, green and yellow could make the image unreadable for the eye. Taking this into consideration, we choosed to avoid green and yellow, and use far less white.
+During the research process we experimented a few design that are not very eye-pleasing.
 
-We also thought of creating a two-faced fresco, for people outside of the school and for the students and the staff. However we quickly found that the time required and the difficulty of such task is greater than what we can realistically offer.
+Those tests made us realize that green and yellow colors do not render well with this type of cube, the colors are too vibrant to look nice with the rest.
+
+We also thought of creating a two-faced fresco, for people outside of the school on one side, and for the people in the room on the other. However we quickly found that the time required and the difficulty of such task is greater than what we can realistically offer.
 
 ## Risks and assumptions
 
-The main risk of the project is, not succeding in the creation of a well presentable pixel image containing the needed interval of rubik cubes, as such a software program will be use for the creation of a pixel image, that originate from a real image while considering the fact that one image pixel is the same as one cube pixel, by so doing, we are sure of neither exceeding nor not reaching the desired interval of rubiks cube for the fresco. 
+The main risk of the project is, not succeding in the creation of a presentable pixelated image containing the needed interval of Rubik's cubes. As such, a software program will be used in the making of the image and the generation of instructions for its construction.
 
 ## Non-functional requirements
 
-We have few to none non-functional requirements, the main one is the QR code disposed on the bottom left of the fresco, as previously mentioned, the QR code is redirecting on ALGOSUP's official website.
+There are few to no non-functional requirements.  
+The main one is the QR code disposed on the bottom left of the fresco, which, as previously mentioned, redirects to ALGOSUP's official website.
 
 ## Maintaining
 
-The maintenance is an essential part of every project, particulary with artistic projects. The fresco will need to be properly cleaned to keep the image visible. The fresco might also be destroyed or small parts can be disasembled by accident, to overcome this, a member of the group will have to visit the fresco during each breaks to see if a part is missing or on the ground.
+The maintenance is an essential part of every project, particulary with artistic projects.
 
-As for the cleaning, a quick wipe should suffice to clean the dust from the cubes.
+The fresco will need to be properly cleaned of dust and stains to keep the image properly visible.
 
+The fresco might also be destroyed or small parts can be disasembled by accident, to overcome this, a member of the group will have to visit the fresco regularly to see if a part is missing or damaged.
 
 ## Glossary
-<span id="matrix">Matrix</span>: A rectangular table of quantities or expressions in rows and columns that is treated as a single entity and manipulated according to particular rules.
+[^1]: Pixel: The smallest unit of an image on a television or computer screen
 
-<span id="pixel">Pixel</span>: the smallest unit of an image on a television or computer screen
-
+[^2]: Matrix: A rectangular table of quantities or expressions in rows and columns that is treated as a single entity and manipulated according to particular rules.
