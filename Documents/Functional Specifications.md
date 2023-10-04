@@ -137,7 +137,7 @@ Additionally, recording of the construction must be provided in the form of a vi
 ## Proposed designs
 
 ### Selected design solution
-<img alt="ALGOSUP" src="./../Images/SelectedFresco.png" width="300">
+<img alt="ALGOSUP" src="./../Images/Final.png" width="300">
 
 This image was selected for the fresco by the entierety of our team.
 
@@ -165,10 +165,10 @@ We had thought of 3 other places to place it:
 Every option had weaknesses but we've chosen the one that seems the least restrictive.
 
 ### Earlier test phase
-<img alt="ALGOSUP" src="./../Images/Unselected1.png" width="200"> 
-<img alt="ALGOSUP" src="./../Images/Unselected2.png" width="200"> 
-<img alt="ALGOSUP" src="./../Images/Unselected3.png" width="200"> 
-<img alt="ALGOSUP" src="./../Images/Unselected4.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Test1.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Test2.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Test3.png" width="200"> 
+<img alt="ALGOSUP" src="./../Images/Test4.png" width="200"> 
 
 During the research process we experimented a few design that are not very eye-pleasing.
 
