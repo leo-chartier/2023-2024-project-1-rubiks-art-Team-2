@@ -8,6 +8,8 @@
   - [Construction of the fresco](#construction-of-the-fresco)
   - [Fresco support](#fresco-support)
   - [Technology used](#technology-used)
+  - [Maintenance](#maintenance)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -36,12 +38,23 @@ During this time, our team will work on the conception, the development and the 
 
 ## Fresco support
 
+To support our fresco, we chose to place it on a plank which is on the plugs and screw it to the wall to reinforce the structure.
+
 ## Technology used 
 
 We chose to use a machine to achieve the right combination with the rubik's cube to end up with the right faces for the fresco.
 We made an algorithm in Python to find the combination with the least moves for each rubik's cube.
 
-Our machine is made with Lego's programmable robot kit NXT 2.0. The program used to run our machine is made with a specific language made by Lego.
+Our machine is made with Lego's programmable robot kit NXT 2.0 Mindstorm. The program used to run our machine is made with a specific language made by Lego.
 
 On average, to do a single rubik's cube it takes 30 seconds. By calculating the time it might takes around 25 hours, thus only considering only our machine is doing the cube and only one is used.
+
+## Maintenance
+
+The maintenance can be resumed as cleaning and repairing the fresco if one or more rubik's cube has fallen. 
+
+For the cleaning part, the cleaning ladies will just have to wipe it without putting much strenght to it.
+
+## Glossary 
+
 
