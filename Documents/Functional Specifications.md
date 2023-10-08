@@ -14,6 +14,7 @@
 - [Proposed designs](#proposed-designs)
   - [Selected design solution](#selected-design-solution)
   - [Selected location](#selected-location)
+  - [Design change request](#design-change-request)
   - [Earlier test phase](#earlier-test-phase)
 - [Risks and assumptions](#risks-and-assumptions)
 - [Non-functional requirements](#non-functional-requirements)
@@ -137,7 +138,7 @@ Additionally, recording of the construction must be provided in the form of a vi
 ## Proposed designs
 
 ### Selected design solution
-<img alt="ALGOSUP" src="./../Images/Final.png" width="300">
+<img alt="ALGOSUP" src="./../Images/Final_propositon.png" width="300">
 
 This image was selected for the fresco by the entierety of our team.
 
@@ -163,6 +164,21 @@ We had thought of 3 other places to place it:
 - in the very middle of the room, but this would make the library unusable.
 
 Every option had weaknesses but we've chosen the one that seems the least restrictive.
+
+### Design change request
+
+After providing the client with our solution, they requested some changes. These included:
+- Making the image shorter in height. On the other propositions, the fresco would fit above the sockets, and this criterium turned out to be more important to the client than we anticipated. For this reason, we had to make our design smaller for it to fit there as well.
+- Removing the QR-code. The client deemed it unnecessary since "the URL is short and easy to type."
+
+This redesign also had some side-effects:
+- Moving the logo to the top-left corner.
+- Removing the slogan. We attempted to keep it, but with this size the characters would be next to one another, and rendered it unreadable.
+- Removing the gradient. We originally had a white gradient in the bottom-left corner to hide the mostly empty space. It did not look good with the new design.
+
+The overall reworked design looks a lot more streched and plain than our original proposition, but it fits the client's taste.
+
+<img alt="ALGOSUP" src="./../Images/Final_reworked.png" width="300">
 
 ### Earlier test phase
 <img alt="ALGOSUP" src="./../Images/Test1.png" width="200"> 
