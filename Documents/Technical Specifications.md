@@ -65,7 +65,7 @@ The Rubik's Art Fresco is a permanent artwork commissioned by ALGOSUP, consistin
 ### Construction Process
 ALGOSUP's students are divided in 8 project teams. When the final image will be chosen by the client, each team will have to collaborate to realize the final fresco. Even so, each one will have to work on their on under the control of the chosen team.
 
-Team 2 will primarily handle the organization and execution of the construction process.
+If chosen, Team 2 will primarily handle the organization and execution of the construction process.
 
 Tasks will be divided into small, manageable blocks for easy distribution.
 
@@ -108,9 +108,9 @@ To support our fresco, we chose to place it on a plank which is on the plugs and
 
 ## Technology used 
 
-We have decided not to employ a robot in the construction process due to logistical constraints and time considerations. Instead, we will rely on manual craftsmanship for optimal efficiency.
+We created a prototype robot to help us with the rotation of the Rubik's cubes as it is much faster than a human. Because of logistical constraints and time considerations, we decided not to keep on using this robot for the actual construction. Indeed, the communication system with the robot is new to us and learning to use it would take too much time and the incorporation of its usage in parallel to the other teams is too much of a burden.
 
-Furthermore, the software utilized for training other teams is developed in Python. This choice is based on Python's versatility, ease of use, and robust libraries for image processing and visualization. These qualities make Python the most suitable option for creating a tool that effectively demonstrates the Rubik's cube movements and enhances team comprehension.
+Furthermore, a software developed in Python has been created to distribute the tasks between the teams and help with the actions to take. The reason for this choice is based on the fact that we will be using a Google Spreadsheet to keep track of the work, its API being accessible in Python. Also, to incorporate external websites, Python is a good alternative to Google's AppScripts which does not implements all the classic methods of a website.
 
 ## Assumptions
 It is assumed that the provided Rubik's cubes will be of standard size and quality, and no significant defects will be encountered during the construction process.
