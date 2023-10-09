@@ -3,12 +3,13 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Overview](#overview)
-- [Construction of the fresco](#construction-of-the-fresco)
-- [Fresco support](#fresco-support)
-- [Technology used](#technology-used)
-- [Maintenance](#maintenance)
-- [Glossary](#glossary)
+- [Rubik's art](#rubiks-art)
+  - [Overview](#overview)
+  - [Construction of the fresco](#construction-of-the-fresco)
+  - [Fresco support](#fresco-support)
+  - [Technology used](#technology-used)
+  - [Maintenance](#maintenance)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -24,6 +25,10 @@ The fresco will be a permanent feature of the school, displayed in what is curre
 ALGOSUP's students are divided in 8 project teams. When the final image will be chosen by the client, each team will have to collaborate to realize the final fresco. Even so, each one will have to work on their on under the control of the chosen team.
 
 <img alt="division" src="./../Images/Tasks_division.png" width="600">
+
+As you can see above, we divided our image in 36 sections:
+- 30 sections of 90 rubik’s cube (15 width x 6 height)
+- 6 sections of 45 rubik’s cube (15 width x 3 width)
 
 Each team will receive sections to realize. Dividing the work into 36 sections will allow us to adapt the distribution of work to the speed of each team.
 
