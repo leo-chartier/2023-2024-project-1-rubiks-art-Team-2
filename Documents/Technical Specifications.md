@@ -38,7 +38,7 @@ The Rubik's Art Fresco is a permanent artwork commissioned by ALGOSUP, consistin
 ###  Fresco Dimensions
 
 - Area: 9.3≈  square meter 
-- Rectangular shape to maximize visibility
+- Rectangular shape to maximize visibility(184.8cm x 504cm)
 
 ###  Cube Representation
 
@@ -108,12 +108,9 @@ To support our fresco, we chose to place it on a plank which is on the plugs and
 
 ## Technology used 
 
-We chose to use a machine to achieve the right combination with the rubik's cube to end up with the right faces for the fresco.
-We made an algorithm in Python to find the combination with the least moves for each rubik's cube.
+We have decided not to employ a robot in the construction process due to logistical constraints and time considerations. Instead, we will rely on manual craftsmanship for optimal efficiency.
 
-Our machine is made with Lego's programmable robot kit NXT 2.0 Mindstorm. The program used to run our machine is made with a specific language made by Lego.
-
-On average, to do a single rubik's cube it takes 30 seconds. By calculating the time it might takes around 25 hours, thus only considering only our machine is doing the cube and only one is used.
+Furthermore, the software utilized for training other teams is developed in Python. This choice is based on Python's versatility, ease of use, and robust libraries for image processing and visualization. These qualities make Python the most suitable option for creating a tool that effectively demonstrates the Rubik's cube movements and enhances team comprehension.
 
 ## Assumptions
 It is assumed that the provided Rubik's cubes will be of standard size and quality, and no significant defects will be encountered during the construction process.
