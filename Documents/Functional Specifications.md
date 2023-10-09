@@ -3,23 +3,24 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Overview](#overview)
-- [Stakeholders](#stakeholders)
-- [Scope](#scope)
-- [Personas and use cases](#personas-and-use-cases)
-  - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
-  - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
-  - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
-- [Evaluation criteria](#evaluation-criteria)
-- [Proposed designs](#proposed-designs)
-  - [Selected design solution](#selected-design-solution)
-  - [Selected location](#selected-location)
-  - [Design change request](#design-change-request)
-  - [Earlier test phase](#earlier-test-phase)
-- [Risks and assumptions](#risks-and-assumptions)
-- [Non-functional requirements](#non-functional-requirements)
-- [Maintaining](#maintaining)
-- [Glossary](#glossary)
+- [Rubik's art](#rubiks-art)
+  - [Overview](#overview)
+  - [Stakeholders](#stakeholders)
+  - [Scope](#scope)
+  - [Personas and use cases](#personas-and-use-cases)
+    - [1. Yves - Curious Citizen of Vierzon](#1-yves---curious-citizen-of-vierzon)
+    - [2. Emily - Art Enthusiast](#2-emily---art-enthusiast)
+    - [3. Alex - Engineering Enthusiast](#3-alex---engineering-enthusiast)
+  - [Evaluation criteria](#evaluation-criteria)
+  - [Proposed designs](#proposed-designs)
+    - [Selected design solution](#selected-design-solution)
+    - [Selected location](#selected-location)
+    - [Design change request](#design-change-request)
+    - [Earlier test phase](#earlier-test-phase)
+  - [Risks and assumptions](#risks-and-assumptions)
+  - [Non-functional requirements](#non-functional-requirements)
+  - [Maintaining](#maintaining)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -154,11 +155,11 @@ We're still looking for a way to fix the cubes together and make the fresco stan
 
 ### Selected location
 
-The fresco will be placed about 1m from the back wall of the library, to leave the sockets accessible. 
+The fresco will be placed on top of a planck which will be on the power sockets, to prevent the fall of the rubik's cubes, a plaxiglass panel will be place in front of the cubes, it will block the cube and will prevent the need of cleaning the cubes.
 
 We had thought of 3 other places to place it: 
 
-- above the sockets, but we were worried that the fresco would fall easily and that the weight of the fresco might damage the sockets, 
+- About 1 meter from the sockets, this requires a structure to support the rubik's cube and the plugs won't be accessible,
 - above the sockets on a plank, this requires drilling holes in the wall or fixing with glue against the wall, which will damage it.
 - against the windows, but we wanted to avoid obstructing the luminosity to keep natural light in the room.
 - in the very middle of the room, but this would make the library unusable.
@@ -213,6 +214,7 @@ The fresco will need to be properly cleaned of dust and stains to keep the image
 The fresco might also be destroyed or small parts can be disasembled by accident, to overcome this, a member of the group will have to visit the fresco regularly to see if a part is missing or damaged.
 
 ## Glossary
+
 [^1]: Pixel: The smallest unit of an image on a television or computer screen
 
 [^2]: Matrix: A rectangular table of quantities or expressions in rows and columns that is treated as a single entity and manipulated according to particular rules.
