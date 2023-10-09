@@ -4,39 +4,107 @@
 <summary>Table of Contents</summary>
 
 - [Rubik's art](#rubiks-art)
-  - [Overview](#overview)
-  - [Construction of the fresco](#construction-of-the-fresco)
+  - [Introduction](#introduction)
+  - [Design Details](#design-details)
+    - [Fresco Dimensions](#fresco-dimensions)
+    - [Cube Representation](#cube-representation)
+    - [Cube Arrangement](#cube-arrangement)
+    - [Mounting and Display](#mounting-and-display)
+    - [Protective Measures](#protective-measures)
+    - [Construction Process](#construction-process)
+  - [Maintenance and Upkeep](#maintenance-and-upkeep)
+  - [Documentation and Reproduction](#documentation-and-reproduction)
   - [Fresco support](#fresco-support)
   - [Technology used](#technology-used)
-  - [Maintenance](#maintenance)
+  - [Assumptions](#assumptions)
+  - [Pros and Cons](#pros-and-cons)
+  - [Security Considerations](#security-considerations)
+  - [Risks](#risks)
+  - [Success Evaluation](#success-evaluation)
+  - [Conclusion](#conclusion)
   - [Glossary](#glossary)
 
 </details>
 
 ---
 
-## Overview
+## Introduction
 
-ALGOSUP is looking for someone to produce a 60-100 square feet (5.57-9.29 square meter) fresco entirely made of Rubik’s cubes.  
-The fresco will be a permanent feature of the school, displayed in what is currently the library and visible from the outside.
+The Rubik's Art Fresco is a permanent artwork commissioned by ALGOSUP, consisting of Rubik's cubes arranged to form a pixelated image representing the institution. This technical specification outlines the detailed implementation plan for the creation, installation, and maintenance of the fresco.
 
-## Construction of the fresco
 
+##  Design Details
+
+###  Fresco Dimensions
+
+- Area: 9.3≈  square meter 
+- Rectangular shape to maximize visibility
+
+###  Cube Representation
+
+- Each Rubik's cube represents a 3x3 pixel matrix.
+- Colors: Green, Yellow, Red, Orange, Blue, White.
+
+###  Cube Arrangement
+
+- The design will be composed of 2970 Rubik's cubes. (90x33)
+- Cubes will be precisely rotated and positioned to create the desired artistic composition.
+
+###  Mounting and Display
+
+- The fresco will be placed on a plank securely attached to the wall over the sockets to prevent accidental displacement.
+- A clear acrylic panel will be installed in front of the cubes to offer protection and reduce maintenance needs.
+
+###  Protective Measures
+
+- The mounting structure will be designed to minimize stress on the cubes.
+- Periodic inspections will be conducted to ensure the structural integrity and stability of the fresco.
+
+
+
+### Construction Process
 ALGOSUP's students are divided in 8 project teams. When the final image will be chosen by the client, each team will have to collaborate to realize the final fresco. Even so, each one will have to work on their on under the control of the chosen team.
 
-<img alt="division" src="./../Images/Tasks_division.png" width="600">
+Team 2 will primarily handle the organization and execution of the construction process.
 
-As you can see above, we divided our image in 36 sections:
+Tasks will be divided into small, manageable blocks for easy distribution.
+
+As you can see below, we divided our image in 36 sections:
 - 30 sections of 90 rubik’s cube (15 width x 6 height)
 - 6 sections of 45 rubik’s cube (15 width x 3 width)
 
-Each team will receive sections to realize. Dividing the work into 36 sections will allow us to adapt the distribution of work to the speed of each team.
+<img alt="division" src="./../Images/Tasks_division.png" width="600">
 
-During this time, our team will work on the conception, the development and the construction of the fresco support.
+
+Each team will be assigned specific sections to construct. This division of labor into 36 sections will enable us to tailor the workload to each team's pace.
+
+Simultaneously, our team will focus on designing, developing, and building the support structure for the fresco.
+
+Furthermore, each team will receive a detailed plan outlining their specific responsibilities, including the placement of Rubik's cubes within their assigned section. This plan will serve as a guide, ensuring accurate execution.
+
+Additionally, to bolster team comprehension and guarantee precise execution, we will employ a specialized software program that visually illustrates the various potential movements of the Rubik's cubes.
+
+
+
+## Maintenance and Upkeep
+
+- Regular cleaning of the acrylic panel to maintain visibility. At least once a week.
+- Routine inspections to identify any missing or damaged cubes, with prompt replacement.
+- Any necessary repairs or replacements will be performed promptly to ensure the longevity of the artwork.
+
+
+
+##  Documentation and Reproduction
+
+- A comprehensive document will be provided detailing the construction process, including cube rotations and arrangements.
+- This documentation will serve as a reference for maintenance, reproduction, or any potential future modifications.
+  
+
+
 
 ## Fresco support
 
-To support our fresco, we chose to place it on a plank which is on the plugs and screw it to the wall to reinforce the structure.
+To support our fresco, we chose to place it on a plank which is on the plugs and screw it to the wall to reinforce the structure.....
 
 ## Technology used 
 
@@ -47,11 +115,34 @@ Our machine is made with Lego's programmable robot kit NXT 2.0 Mindstorm. The pr
 
 On average, to do a single rubik's cube it takes 30 seconds. By calculating the time it might takes around 25 hours, thus only considering only our machine is doing the cube and only one is used.
 
-## Maintenance
+## Assumptions
+It is assumed that the provided Rubik's cubes will be of standard size and quality, and no significant defects will be encountered during the construction process.
+The provided image overlay will accurately represent the desired final result.
 
-The maintenance can be resumed as cleaning and repairing the fresco if one or more rubik's cube has fallen. 
+## Pros and Cons
+Pros:
 
-For the cleaning part, the cleaning ladies will just have to wipe it without putting much strenght to it.
+The Rubik's Art Fresco offers a visually captivating representation of ALGOSUP's identity.
+The use of Rubik's cubes provides a unique and engaging artistic medium.
+
+Cons:
+
+The construction process may be labor-intensive and time-consuming, particularly if a significant number of cubes are deemed unusable.
+
+## Security Considerations
+The mounting structure will be designed to minimize stress on the cubes and prevent accidental displacement.
+The clear acrylic panel will offer an additional layer of protection and reduce maintenance needs.
+
+## Risks
+The main risk lies in the potential difficulty of creating a pixelated image using Rubik's cubes within the specified cube count range.
+To mitigate this, a software program will assist in generating instructions for the construction process.
+
+## Success Evaluation
+The success of the project will be determined by the feedback provided by the daily workers of the B3, as well as the degree of similarity between the final image and the original prototype. This evaluation will serve as a crucial indicator of the project's overall success and alignment with the intended vision.
+
+
+## Conclusion
+By adhering to these technical specifications, we aim to create a Rubik's Art Fresco that not only meets ALGOSUP's vision but also stands as a durable and visually captivating representation of the institution's identity.
 
 ## Glossary 
 
