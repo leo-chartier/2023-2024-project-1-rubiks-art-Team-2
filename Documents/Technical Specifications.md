@@ -3,43 +3,44 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Introduction](#introduction)
-- [Audience](#audience)
-  - [Stakeholders from ALGOSUP](#stakeholders-from-algosup)
-  - [Members of Team 2 (Team Leader)](#members-of-team-2-team-leader)
-  - [Members of Other Teams](#members-of-other-teams)
-- [Deliverable](#deliverable)
-- [Requirements](#requirements)
-- [Nice to have](#nice-to-have)
-- [Priorities](#priorities)
-- [Non-Requirements / Out of scope](#non-requirements--out-of-scope)
-- [Operating Requirements](#operating-requirements)
-- [Assumptions](#assumptions)
-- [Design Details](#design-details)
-  - [Fresco Dimensions](#fresco-dimensions)
-  - [Cube Representation](#cube-representation)
-  - [Cube Arrangement](#cube-arrangement)
-  - [Protective Measures](#protective-measures)
-  - [Tasks division](#tasks-division)
-  - [Distribution of tasks and instructions](#distribution-of-tasks-and-instructions)
-  - [Fresco support](#fresco-support)
-- [Maintenance and Upkeep](#maintenance-and-upkeep)
-- [Software](#software)
-  - [Technology Choice](#technology-choice)
-- [Ideas and Hypotheses](#ideas-and-hypotheses)
-  - [Unproven Hypotheses](#unproven-hypotheses)
-  - [Proven Hypotheses](#proven-hypotheses)
-- [Challenges](#challenges)
-- [Possible Bugs](#possible-bugs)
-  - [1. Misaligned Cubes:](#1-misaligned-cubes)
-  - [2. Color Inconsistencies:](#2-color-inconsistencies)
-  - [3. Structural Instability:](#3-structural-instability)
-  - [4. Dust Accumulation:](#4-dust-accumulation)
-  - [5. Cube Wear and Tear:](#5-cube-wear-and-tear)
-- [Security Considerations](#security-considerations)
-- [Success Evaluation](#success-evaluation)
-- [Conclusion](#conclusion)
-- [Glossary](#glossary)
+- [Rubik's art](#rubiks-art)
+  - [Introduction](#introduction)
+  - [Audience](#audience)
+    - [Stakeholders from ALGOSUP](#stakeholders-from-algosup)
+    - [Members of Team 2 (Team Leader)](#members-of-team-2-team-leader)
+    - [Members of Other Teams](#members-of-other-teams)
+  - [Deliverable](#deliverable)
+  - [Requirements](#requirements)
+  - [Nice to have](#nice-to-have)
+  - [Priorities](#priorities)
+  - [Non-Requirements / Out of scope](#non-requirements--out-of-scope)
+  - [Operating Requirements](#operating-requirements)
+  - [Assumptions](#assumptions)
+  - [Design Details](#design-details)
+    - [Fresco Dimensions](#fresco-dimensions)
+    - [Cube Representation](#cube-representation)
+    - [Cube Arrangement](#cube-arrangement)
+    - [Protective Measures](#protective-measures)
+    - [Tasks division](#tasks-division)
+    - [Distribution of tasks and instructions](#distribution-of-tasks-and-instructions)
+    - [Fresco support](#fresco-support)
+  - [Maintenance and Upkeep](#maintenance-and-upkeep)
+  - [Software](#software)
+    - [Technology Choice](#technology-choice)
+  - [Ideas and Hypotheses](#ideas-and-hypotheses)
+    - [Unproven Hypotheses](#unproven-hypotheses)
+    - [Proven Hypotheses](#proven-hypotheses)
+  - [Challenges](#challenges)
+  - [Possible Bugs](#possible-bugs)
+    - [1. Misaligned Cubes:](#1-misaligned-cubes)
+    - [2. Color Inconsistencies:](#2-color-inconsistencies)
+    - [3. Structural Instability:](#3-structural-instability)
+    - [4. Dust Accumulation:](#4-dust-accumulation)
+    - [5. Cube Wear and Tear:](#5-cube-wear-and-tear)
+  - [Security Considerations](#security-considerations)
+  - [Success Evaluation](#success-evaluation)
+  - [Conclusion](#conclusion)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -128,11 +129,6 @@ Do not place objects in front of the fresco to block the view.
 - Cubes will be precisely rotated and positioned to create the desired artistic composition.
 - The dimensions of a cube are 5.6x5.6x5.6 cm. 
 
-<!-- ###  Mounting and Display
-
-- The fresco will be placed on a plank securely attached to the wall over the sockets to prevent accidental displacement.
-- A clear acrylic[^4] panel will be installed in front of the cubes to offer protection and reduce maintenance needs. -->
-
 ###  Protective Measures
 
 - The mounting structure will be designed to minimize stress on the cubes.
@@ -176,7 +172,11 @@ Note: If another team is selected, the softwares will happily be shared as they 
 
 Simultaneously, our team will focus on designing, developing, and building the support structure for the fresco.
 
-The fresco will be placed above the electrical outlets, on a board fixed to the wall with brackets. Another board will be placed above the fresco to protect it and hold it in place. It will also be fixed to the wall with brackets. 2 boards will be placed on either side of the fresco to fix it completely, screwed into the boards above and below.
+The fresco will be positioned above the sockets. To provide support for the fresco, we will construct a sturdy frame using wood. This frame will consist of two wooden planks, each measuring 3 centimeters in thickness, with dimensions of 512 centimeters in length and 6 centimeters in width. In addition, we will use two more wooden planks of the same thickness, measuring 192 centimeters in length and 6 centimeters in width. To reinforce the frame, we will utilize nine iron brackets, securing them with multiple screws for added stability and durability. 
+Here are some images to illustrate the idea:
+<img alt="division" src="./../Images/Schema1.png" width="600">
+<img alt="division" src="./../Images/Schema2.png" width="600">
+
 
 ## Maintenance and Upkeep
 
