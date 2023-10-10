@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="426pt" height="260pt" viewBox="0.00 0.00 426.24 260">
+<g id="graph0" class="graph" transform="translate(4,256) scale(1)" data-name="architecture">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-256 422.24,-256 422.24,4 -4,4"/>
+<!-- Image -->
+<!-- Image -->
+<g id="node2" class="node" pointer-events="visible" data-name="Image">
+
+<ellipse fill="none" stroke="black" cx="35.16" cy="-162" rx="35.33" ry="18"/>
+<text text-anchor="middle" x="35.16" y="-157.8" font-family="Times,serif" font-size="14.00">Image</text>
+</g><g id="node1" class="node" pointer-events="visible" data-name="Python" data-comment="Image">
+
+<ellipse fill="none" stroke="black" cx="177.16" cy="-234" rx="38.31" ry="18"/>
+<text text-anchor="middle" x="177.16" y="-229.8" font-family="Times,serif" font-size="14.00">Python</text>
+</g>
+
+<!-- Python&#45;&gt;Image -->
+<g id="edge1" class="edge" data-name="Python-&gt;Image">
+
+<path fill="none" stroke="black" d="M151.45,-220.32C128.65,-209.09 95.16,-192.58 69.97,-180.16"/>
+<polygon fill="black" stroke="black" points="71.61,-177.07 61.1,-175.78 68.52,-183.34 71.61,-177.07"/>
+</g>
+
+<!-- Python&#45;&gt; --><g id="node3" class="node" pointer-events="visible" data-name="Google Spreadsheet" data-comment="Python-&gt;">
+
+<ellipse fill="none" stroke="black" cx="177.16" cy="-162" rx="88.57" ry="18"/>
+<text text-anchor="middle" x="177.16" y="-157.8" font-family="Times,serif" font-size="14.00">Google Spreadsheet</text>
+</g>
+<!-- Python&#45;&gt;G -->
+<g id="edge2" class="edge" data-name="Python-&gt;Google Spreadsheet" data-comment="Python-&gt;G">
+
+<path fill="none" stroke="black" d="M177.16,-215.7C177.16,-208.41 177.16,-199.73 177.16,-191.54"/>
+<polygon fill="black" stroke="black" points="180.66,-191.62 177.16,-181.62 173.66,-191.62 180.66,-191.62"/>
+</g>
+<!-- &#45; -->
+<g id="node6" class="node" pointer-events="visible" data-name="bestsiteever.ru" data-comment="-">
+
+<ellipse fill="none" stroke="black" cx="351.16" cy="-162" rx="67.16" ry="18"/>
+<text text-anchor="middle" x="351.16" y="-157.8" font-family="Times,serif" font-size="14.00">bestsiteever.ru</text>
+</g>
+<!-- App -->
+<g id="node4" class="node" pointer-events="visible" data-name="AppsScript" data-comment="App">
+
+<ellipse fill="none" stroke="black" cx="177.16" cy="-90" rx="54.49" ry="18"/>
+<text text-anchor="middle" x="177.16" y="-85.8" font-family="Times,serif" font-size="14.00">AppsScript</text>
+</g><g id="edge3" class="edge" data-name="Google Spreadsheet-&gt;AppsScript" data-comment="App">
+
+<path fill="none" stroke="black" d="M177.16,-132.24C177.16,-128.01 177.16,-123.66 177.16,-119.44"/>
+<polygon fill="black" stroke="black" points="173.66,-132.18 177.16,-142.18 180.66,-132.18 173.66,-132.18"/>
+<polygon fill="black" stroke="black" points="180.66,-119.62 177.16,-109.62 173.66,-119.62 180.66,-119.62"/>
+</g><g id="edge5" class="edge" data-name="Python-&gt;bestsiteever.ru" data-comment="App">
+
+<path fill="none" stroke="black" d="M205.51,-221.6C232.33,-210.81 273.07,-194.42 304.65,-181.71"/>
+<polygon fill="black" stroke="black" points="305.6,-185.1 313.57,-178.12 302.99,-178.61 305.6,-185.1"/>
+</g>
+<!-- User -->
+<g id="node5" class="node" pointer-events="visible" data-name="User">
+
+<ellipse fill="none" stroke="black" cx="177.16" cy="-18" rx="29.04" ry="18"/>
+<text text-anchor="middle" x="177.16" y="-13.8" font-family="Times,serif" font-size="14.00">User</text>
+</g>
+<!-- AppsScript&#45;&gt;User -->
+
+<!-- AppsScript&#45;&gt;User -->
+<g id="edge4" class="edge" data-name="AppsScript-&gt;User">
+
+<path fill="none" stroke="black" d="M177.16,-60.24C177.16,-56.01 177.16,-51.66 177.16,-47.44"/>
+<polygon fill="black" stroke="black" points="173.66,-60.18 177.16,-70.18 180.66,-60.18 173.66,-60.18"/>
+<polygon fill="black" stroke="black" points="180.66,-47.62 177.16,-37.62 173.66,-47.62 180.66,-47.62"/>
+</g>
+<!-- AppsScript&#45;&gt;User -->
+
+</g>
+</svg>

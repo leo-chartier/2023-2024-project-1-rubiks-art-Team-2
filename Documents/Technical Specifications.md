@@ -3,44 +3,44 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Rubik's art](#rubiks-art)
-  - [Introduction](#introduction)
-  - [Audience](#audience)
-    - [Stakeholders from ALGOSUP](#stakeholders-from-algosup)
-    - [Members of Team 2 (Team Leader)](#members-of-team-2-team-leader)
-    - [Members of Other Teams](#members-of-other-teams)
-  - [Deliverable](#deliverable)
-  - [Requirements](#requirements)
-  - [Nice to have](#nice-to-have)
-  - [Priorities](#priorities)
-  - [Non-Requirements / Out of scope](#non-requirements--out-of-scope)
-  - [Operating Requirements](#operating-requirements)
-  - [Assumptions](#assumptions)
-  - [Design Details](#design-details)
-    - [Fresco Dimensions](#fresco-dimensions)
-    - [Cube Representation](#cube-representation)
-    - [Cube Arrangement](#cube-arrangement)
-    - [Protective Measures](#protective-measures)
-    - [Tasks division](#tasks-division)
-    - [Distribution of tasks and instructions](#distribution-of-tasks-and-instructions)
-    - [Fresco support](#fresco-support)
-  - [Maintenance and Upkeep](#maintenance-and-upkeep)
-  - [Software](#software)
-    - [Technology Choice](#technology-choice)
-  - [Ideas and Hypotheses](#ideas-and-hypotheses)
-    - [Unproven Hypotheses](#unproven-hypotheses)
-    - [Proven Hypotheses](#proven-hypotheses)
-  - [Challenges](#challenges)
-  - [Possible Bugs](#possible-bugs)
-    - [1. Misaligned Cubes:](#1-misaligned-cubes)
-    - [2. Color Inconsistencies:](#2-color-inconsistencies)
-    - [3. Structural Instability:](#3-structural-instability)
-    - [4. Dust Accumulation:](#4-dust-accumulation)
-    - [5. Cube Wear and Tear:](#5-cube-wear-and-tear)
-  - [Security Considerations](#security-considerations)
-  - [Success Evaluation](#success-evaluation)
-  - [Conclusion](#conclusion)
-  - [Glossary](#glossary)
+- [Introduction](#introduction)
+- [Audience](#audience)
+  - [Stakeholders from ALGOSUP](#stakeholders-from-algosup)
+  - [Members of Team 2 (Team Leader)](#members-of-team-2-team-leader)
+  - [Members of Other Teams](#members-of-other-teams)
+- [Deliverable](#deliverable)
+- [Requirements](#requirements)
+- [Nice to have](#nice-to-have)
+- [Priorities](#priorities)
+- [Non-Requirements / Out of scope](#non-requirements--out-of-scope)
+- [Operating Requirements](#operating-requirements)
+- [Assumptions](#assumptions)
+- [Design Details](#design-details)
+  - [Fresco Dimensions](#fresco-dimensions)
+  - [Cube Representation](#cube-representation)
+  - [Cube Arrangement](#cube-arrangement)
+  - [Protective Measures](#protective-measures)
+  - [Tasks division](#tasks-division)
+  - [Distribution of tasks and instructions](#distribution-of-tasks-and-instructions)
+  - [Software Architecture Diagram](#software-architecture-diagram)
+  - [Example of instructions](#example-of-instructions)
+  - [Fresco support](#fresco-support)
+- [Maintenance and Upkeep](#maintenance-and-upkeep)
+  - [Technology Choice](#technology-choice)
+- [Ideas and Hypotheses](#ideas-and-hypotheses)
+  - [Unproven Hypotheses](#unproven-hypotheses)
+  - [Proven Hypotheses](#proven-hypotheses)
+- [Challenges](#challenges)
+- [Possible Bugs](#possible-bugs)
+  - [1. Misaligned Cubes:](#1-misaligned-cubes)
+  - [2. Color Inconsistencies:](#2-color-inconsistencies)
+  - [3. Structural Instability:](#3-structural-instability)
+  - [4. Dust Accumulation:](#4-dust-accumulation)
+  - [5. Cube Wear and Tear:](#5-cube-wear-and-tear)
+- [Security Considerations](#security-considerations)
+- [Success Evaluation](#success-evaluation)
+- [Conclusion](#conclusion)
+- [Glossary](#glossary)
 
 </details>
 
@@ -127,7 +127,7 @@ Do not place objects in front of the fresco to block the view.
 
 - The design will be composed of 2970 Rubik's cubes. (90x33)
 - Cubes will be precisely rotated and positioned to create the desired artistic composition.
-- The dimensions of a cube are 5.6x5.6x5.6 cm. 
+- The dimensions of a cube are 5.6 x 5.6 x 5.6 cm. 
 
 ###  Protective Measures
 
@@ -143,30 +143,77 @@ If chosen, Team 2 will primarily handle the organization and execution of the co
 
 Tasks will be divided into small, manageable blocks for easy distribution.
 
-As you visible on the image below, we divided our fresco in 36 sections:
-- 30 sections of 90 rubik’s cube (15 wide x 6 height)
+As you visible on the image below, we divided our fresco in 30 sections:
+- 24 sections of 90 rubik’s cube (15 wide x 6 height)
 - 6 sections of 45 rubik’s cube (15 wide x 3 height) at the bottom
 
 <img alt="division" src="./../Images/Tasks_division.png" width="600">
 
-Each team will be assigned specific sections to construct. This division of labor into 36 sections will enable us to tailor the workload to each team's pace.
+Each team will be assigned specific sections to construct. This division of labor into 30 sections will enable us to tailor the workload to each team's pace.
 
 Furthermore, each team will receive a detailed plan outlining their specific responsibilities, including the placement of Rubik's cubes within their assigned section. This plan will serve as a guide, ensuring accurate execution. Each team must deliver its sections to the library and return them in the same layout as on the plan, to make it easier for Team 2 to build the whole fresco when they need it.
 
 ### Distribution of tasks and instructions
 
 The tasks will automatically be distributed by a software since the different work-hours of each team would make manual coordination hard.
-The software will be written in Python, controlling a Google Spreadsheets.
+The software will be written with Google's AppsScript tool, controlling a Google Spreadsheets to keep track of the data.
 
 The sheets will be divived as follows:
 - Fresco: The image representation, divided in the different sections and cubes
-- Moves: List of the initial position of the cubes and the rotations to be made, along with an indicator to keep track of the state (to be done, started, done, ...)
+- Moves: List of the initial position of the cubes and the rotations to be made, along with an indicator to keep track of the state (to be done, started, done, ...) and the identifier of the cube (where the cube goes in the fresco)
+
+The original data will be provided automatically by a script written in Python.
+
+The Google Spreadsheet is [here](https://docs.google.com/spreadsheets/d/1HjhU7dkE-jnLUHR6ZG_JEPCpeJbwL-xRkuXYuzZ_e_w/edit?usp=sharing) and the code used will be published on our Github repository [here](https://github.com/leo-chartier/2023-2024-project-1-rubiks-art-Team-2).
+
+Here is a preview of what the spreadsheet will look like:
+![Fresco preview](../Images/Sheets_fresco.png)
+![Moves list](../Images/Sheets_moves.png)
 
 Additionally, to guarantee precise execution, we will employ a specialized software program that visually illustrates the various movements of the Rubik's cubes. The different workers will only have to read the instructions shown on their screen.
+
+Here is a screenshot from the website (the moves will have to be reversed):
+![Movement showcase](../Images/Rubiks_solving.png)
+
+Since each group will work on one portion of the fresco at a time, the software will ask which section the user is working on before selecting a cube from this section that has not yet been processed.
 
 The added bonus of using such tools comes if the client wants to change the design. Indeed, simply changing the input image will automatically change the moves and instructions.
 
 Note: If another team is selected, the softwares will happily be shared as they won't be of use otherwise and might even increase the overall construction speed.
+
+### Software Architecture Diagram
+
+![SAD](../Images/Architecture_diagram.svg)
+
+### Example of instructions
+
+Let us take the example of the cube `S1`. `S` means the cube is on the 19th column (from the left) and `1` the first row (bottom).
+
+To properly execute the move order, the cube will first have to properly be rotated. In this case, the front face is the white one and the top face is the blue one.
+
+Finally, the rotations can be executed. They are provided in the following format:
+| Letter | Face |
+| --- | --- |
+| F | Front |
+| B | Back |
+| L | Left |
+| R | Right |
+| U | Up |
+| D | Down |
+
+By default, each face should be rotated by **90° clockwise** when the face is on the front. Modifiers can be added to change the rotation:
+- `'`: Rotate 90° **counter-clockwise**
+- `2` or `²`: Rotate by 180° (half-turn)
+
+In our case, the sequence is `B' F U`.
+This means the movements are as follows:
+1. Back face counter-clockwise (this means an orange line will appear at the back of the top face)
+2. Front clockwise (there is now only a blue strip on to the face)
+3. Up/top face clockwise (the front face has the top going blue-red-blue and the rest is white)
+
+Then the cube will have to be placed on the correct position on the section.
+
+Repeat with a new sequence.
 
 ### Fresco support
 
@@ -184,13 +231,10 @@ Here are some images to illustrate the idea:
 - Routine inspections (each monday) to identify any missing or damaged cubes, with prompt replacement.
 - Any necessary repairs or replacements will be performed promptly to ensure the longevity of the artwork.
 
-## Software  
-
-A software developed has been created to distribute the tasks between the teams and help with the actions to take. Such as cube rotation or cube placement.
-
 ### Technology Choice
 
-Python will be used to program the software. The reason for this choice is based on the fact that we will be using a Google Spreadsheet to keep track of the work, its API[^2] being accessible in Python. Also, to incorporate external websites, Python is a good alternative to Google's AppScripts which does not implements all the classic methods of a website.
+Python and AppsScript will be used to program the software. The reason for this choice is based on the fact that we will be using a Google Spreadsheet to keep track of the work, its API[^2] being accessible in Python which will be used as an alternative to Google's AppsScript which does not allows for collection of data from other websites.
+
 
 ## Ideas and Hypotheses
 
