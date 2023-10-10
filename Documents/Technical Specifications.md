@@ -3,44 +3,48 @@
 <details>
 <summary>Table of Contents</summary>
 
-- [Introduction](#introduction)
-- [Audience](#audience)
-  - [Stakeholders from ALGOSUP](#stakeholders-from-algosup)
-  - [Members of Team 2 (Team Leader)](#members-of-team-2-team-leader)
-  - [Members of Other Teams](#members-of-other-teams)
-- [Deliverable](#deliverable)
-- [Requirements](#requirements)
-- [Nice to have](#nice-to-have)
-- [Priorities](#priorities)
-- [Non-Requirements / Out of scope](#non-requirements--out-of-scope)
-- [Operating Requirements](#operating-requirements)
-- [Assumptions](#assumptions)
-- [Design Details](#design-details)
-  - [Fresco Dimensions](#fresco-dimensions)
-  - [Cube Representation](#cube-representation)
-  - [Cube Arrangement](#cube-arrangement)
-  - [Protective Measures](#protective-measures)
-  - [Tasks division](#tasks-division)
-  - [Distribution of tasks and instructions](#distribution-of-tasks-and-instructions)
-  - [Software Architecture Diagram](#software-architecture-diagram)
-  - [Example of instructions](#example-of-instructions)
-  - [Fresco support](#fresco-support)
-- [Maintenance and Upkeep](#maintenance-and-upkeep)
-  - [Technology Choice](#technology-choice)
-- [Ideas and Hypotheses](#ideas-and-hypotheses)
-  - [Unproven Hypotheses](#unproven-hypotheses)
-  - [Proven Hypotheses](#proven-hypotheses)
-- [Challenges](#challenges)
-- [Possible Bugs](#possible-bugs)
-  - [1. Misaligned Cubes:](#1-misaligned-cubes)
-  - [2. Color Inconsistencies:](#2-color-inconsistencies)
-  - [3. Structural Instability:](#3-structural-instability)
-  - [4. Dust Accumulation:](#4-dust-accumulation)
-  - [5. Cube Wear and Tear:](#5-cube-wear-and-tear)
-- [Security Considerations](#security-considerations)
-- [Success Evaluation](#success-evaluation)
-- [Conclusion](#conclusion)
-- [Glossary](#glossary)
+- [Rubik's art](#rubiks-art)
+  - [Introduction](#introduction)
+  - [Audience](#audience)
+    - [Stakeholders from ALGOSUP](#stakeholders-from-algosup)
+    - [Members of Team 2 (Team Leader)](#members-of-team-2-team-leader)
+    - [Members of Other Teams](#members-of-other-teams)
+  - [Deliverable](#deliverable)
+  - [Requirements](#requirements)
+  - [Nice to have](#nice-to-have)
+  - [Priorities](#priorities)
+  - [Non-Requirements / Out of scope](#non-requirements--out-of-scope)
+  - [Operating Requirements](#operating-requirements)
+  - [Assumptions](#assumptions)
+  - [Design Details](#design-details)
+    - [Fresco Dimensions](#fresco-dimensions)
+    - [Cube Representation](#cube-representation)
+    - [Cube Arrangement](#cube-arrangement)
+    - [Protective Measures](#protective-measures)
+    - [Tasks division](#tasks-division)
+    - [Distribution of tasks and instructions](#distribution-of-tasks-and-instructions)
+    - [Software Architecture Diagram](#software-architecture-diagram)
+    - [Example of instructions](#example-of-instructions)
+    - [Fresco Support Construction Guide:](#fresco-support-construction-guide)
+      - [Tools Required:](#tools-required)
+      - [Materials Needed:](#materials-needed)
+      - [Step-by-Step Construction:](#step-by-step-construction)
+  - [Maintenance and Upkeep](#maintenance-and-upkeep)
+    - [Technology Choice](#technology-choice)
+  - [Ideas and Hypotheses](#ideas-and-hypotheses)
+    - [Unproven Hypotheses](#unproven-hypotheses)
+    - [Proven Hypotheses](#proven-hypotheses)
+  - [Challenges](#challenges)
+  - [Possible Bugs](#possible-bugs)
+    - [1. Misaligned Cubes:](#1-misaligned-cubes)
+    - [2. Color Inconsistencies:](#2-color-inconsistencies)
+    - [3. Structural Instability:](#3-structural-instability)
+    - [4. Dust Accumulation:](#4-dust-accumulation)
+    - [5. Cube Wear and Tear:](#5-cube-wear-and-tear)
+  - [Security Considerations](#security-considerations)
+  - [Success Evaluation](#success-evaluation)
+  - [Conclusion](#conclusion)
+  - [Glossary](#glossary)
 
 </details>
 
@@ -215,12 +219,58 @@ Then the cube will have to be placed on the correct position on the section.
 
 Repeat with a new sequence.
 
-### Fresco support
+### Fresco Support Construction Guide:
 
-Simultaneously, our team will focus on designing, developing, and building the support structure for the fresco.
+Simultaneously, our team will focus on designing, developing, and building the support structure for the fresco. Here is a step-by-step guide to construct the frame for the fresco:
 
-The fresco will be positioned above the sockets. To provide support for the fresco, we will construct a sturdy frame using wood. This frame will consist of two wooden planks, each measuring 3 centimeters in thickness, with dimensions of 512 centimeters in length and 6 centimeters in width. In addition, we will use two more wooden planks of the same thickness, measuring 192 centimeters in length and 6 centimeters in width. To reinforce the frame, we will utilize nine iron brackets, securing them with multiple screws for added stability and durability. 
-Here are some images to illustrate the idea:
+#### Tools Required:
+1. **Measuring Tape**: To ensure accurate measurements.
+2. **Electric Drill**: For creating holes.
+3. **Screwdriver**: To fasten screws securely.
+4. **Level**: To ensure the frame is straight and level.
+5. **Pencil**: For marking measurements on wood.
+6. **Safety Gear**: Including gloves and safety glasses.
+
+#### Materials Needed:
+- 2 Wood Planks (3cm Thickness, 512cm x 6cm)
+- 2 Wood Planks (3cm Thickness, 179cm x 6cm)
+- 9 Iron Brackets
+- Multiple Screws
+
+#### Step-by-Step Construction:
+
+1. **Assemble the Frame:**
+   - Take the two longer planks (512cm) and position them parallel to each other on a flat surface. These will serve as the top and bottom of the frame.
+   - Place the two shorter planks (179cm) parallel to each other between the longer planks to form a rectangular frame.
+  <img alt="division" src="./../Images/step1.png" width="600">
+
+2. **Attach Iron Brackets:**
+   - Place the iron brackets at the corners of the top and bottom planks. Use the electric drill to create pilot holes for the screws, then fix the brackets securely.
+ <img alt="division" src="./../Images/step2.png" width="600">
+
+3. **Strengthen the Plank:**
+   - To provide additional support, add extra iron brackets all along the bottom plank.
+ <img alt="division" src="./../Images/step3.png" width="600">
+
+4. **Check for Level:**
+   - Use the level to ensure the frame is straight and level. Make any necessary adjustments before proceeding.
+ <img alt="division" src="./../Images/step4.png" width="600">
+
+5. **Preparation for Mounting:**
+   - Position the frame at the designated location on the wall, ensuring it is aligned above the sockets.
+ <img alt="division" src="./../Images/step5.png" width="600">
+
+6. **Secure the Frame:**
+   - Use appropriate screws and the electric drill to securely fasten the frame to the wall. Ensure it is firmly anchored.
+
+7. **Final Checks:**
+   - Double-check the frame for stability and alignment. Make any final adjustments as needed.
+
+8.  **Safety Measures:**
+    - Ensure all screws are tightly fastened, and there are no loose components. This will guarantee the stability and security of the frame.
+
+
+Here are some images to illustrate :
 <img alt="division" src="./../Images/Schema1.png" width="600">
 <img alt="division" src="./../Images/Schema2.png" width="600">
 
