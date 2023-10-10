@@ -141,6 +141,7 @@ Adequate lighting for the construction area to ensure accurate cube placement.
 
 - The design will be composed of 2970 Rubik's cubes. (90x33)
 - Cubes will be precisely rotated and positioned to create the desired artistic composition.
+- The dimensions of a cube are 5.6x5.6x5.6 cm. 
 
 ###  Mounting and Display
 
