@@ -20,12 +20,10 @@
     - [Fresco Dimensions](#fresco-dimensions)
     - [Cube Representation](#cube-representation)
     - [Cube Arrangement](#cube-arrangement)
-    - [Mounting and Display](#mounting-and-display)
     - [Protective Measures](#protective-measures)
     - [Construction Process](#construction-process)
   - [Fresco support](#fresco-support)
   - [Maintenance and Upkeep](#maintenance-and-upkeep)
-  - [Documentation and Reproduction](#documentation-and-reproduction)
   - [Software](#software)
     - [Technology Choice](#technology-choice)
   - [Ideas and Hypotheses](#ideas-and-hypotheses)
@@ -65,7 +63,6 @@
 
 - **Documentation Team Members**: Responsible for recording cube rotations, capturing the construction process on film, and maintaining comprehensive documentation for future reference.
 
-
 ### Members of Other Teams
 
 - **Project Managers**: They will be responsible for ensuring that their teams complete their assigned sections accurately and efficiently.
@@ -74,13 +71,13 @@
 
 - **Documentation Team Members**: Responsible for recording cube rotations, capturing the construction process on film, and maintaining comprehensive documentation for future reference.
 
-
 ## Introduction
 
 The Rubik's Art Fresco is a permanent artwork commissioned by ALGOSUP, consisting of Rubik's cubes arranged to form a pixelated image[^3] representing the institution. This technical specification outlines the detailed implementation plan for the creation, installation, and maintenance of the fresco.
 
-## Deliverable 
-The deliverable for this project is a visually striking and meticulously constructed fresco created entirely from Rubik's cubes. The fresco will serve as a permanent feature within ALGOSUP, displayed in what is currently the library and visible from both the interior and exterior of the building.
+## Deliverable
+
+The deliverable for this project is a visually striking and meticulously constructed fresco created entirely from Rubik's cubes. The fresco will serve as a permanent feature within ALGOSUP, displayed in what is currently the library and visible from both the interior and exterior of the building. The project must be delivered by October 26.
 
 ## Requirements
 
@@ -107,29 +104,33 @@ The deliverable for this project is a visually striking and meticulously constru
 - Maintain visual appeal and accuracy of representation.
   
 - Divide construction process into manageable sections.
+
+- Be visible from outside the building.
   
 ## Non-Requirements / Out of scope
 
 - Use of a robot for cube manipulation[^6] will not be pursued due to logistical constraints and time considerations. Indeed, the communication system with the robot is new to us and learning to use it would take too much time and the incorporation of its usage in parallel to the other teams is too much of a burden.
 
-  
-- Ability to disassemble the fresco for image modification is out of scope.
+<!-- - Ability to disassemble the fresco for image modification is out of scope. -->
 
 ## Operating Requirements
 
-Adequate lighting for the construction area to ensure accurate cube placement.
+Adequate lighting to be able to see the fresco from the outside.
+Do not place objects in front of the fresco to block the view.
 
 ## Assumptions
+
 - The provided Rubik's cubes will be of standard size and quality, without significant defects.
   
 - The provided image overlay will accurately represent the desired final result.
 
+- The needed material will be provided by the client on time.
 
 ##  Design Details
 
 ###  Fresco Dimensions
 
-- Area: 9.3≈  square meter 
+- Area: ≈9.3 square meter 
 - Rectangular shape to maximize visibility(184.8cm x 504cm)
 
 ###  Cube Representation
@@ -143,19 +144,19 @@ Adequate lighting for the construction area to ensure accurate cube placement.
 - Cubes will be precisely rotated and positioned to create the desired artistic composition.
 - The dimensions of a cube are 5.6x5.6x5.6 cm. 
 
-###  Mounting and Display
+<!-- ###  Mounting and Display
 
 - The fresco will be placed on a plank securely attached to the wall over the sockets to prevent accidental displacement.
-- A clear acrylic[^4] panel will be installed in front of the cubes to offer protection and reduce maintenance needs.
+- A clear acrylic[^4] panel will be installed in front of the cubes to offer protection and reduce maintenance needs. -->
 
 ###  Protective Measures
 
 - The mounting structure will be designed to minimize stress on the cubes.
 - Periodic inspections will be conducted to ensure the structural integrity and stability of the fresco.
-
+- a sheet affixed to the wall stating that it is forbidden to touch or remove cubes from the fresco
 
 ### Construction Process
-ALGOSUP's students are divided in 8 project teams. When the final image will be chosen by the client, each team will have to collaborate to realize the final fresco. Even so, each one will have to work on their on under the control of the chosen team.
+ALGOSUP's students are divided in 8 project teams. When the final image will be chosen by the client, each team will have to collaborate to realize the final fresco. Even so, each one will have to work on their own under the control of the chosen team.
 
 If chosen, Team 2 will primarily handle the organization and execution of the construction process.
 
@@ -167,38 +168,27 @@ As you can see below, we divided our image in 36 sections:
 
 <img alt="division" src="./../Images/Tasks_division.png" width="600">
 
-
 Each team will be assigned specific sections to construct. This division of labor into 36 sections will enable us to tailor the workload to each team's pace.
 
 Simultaneously, our team will focus on designing, developing, and building the support structure for the fresco.
 
-Furthermore, each team will receive a detailed plan outlining their specific responsibilities, including the placement of Rubik's cubes within their assigned section. This plan will serve as a guide, ensuring accurate execution.
+Furthermore, each team will receive a detailed plan outlining their specific responsibilities, including the placement of Rubik's cubes within their assigned section. This plan will serve as a guide, ensuring accurate execution. Each team must deliver its sections to the library and return them in the same layout as on the plan, to make it easier for Team 2 to build the whole fresco when they need it.
 
 Additionally, to bolster team comprehension and guarantee precise execution, we will employ a specialized software program that visually illustrates the various potential movements of the Rubik's cubes.
 
-
 ## Fresco support
 
-To support our fresco, we chose to place it on a plank which is on the plugs and screw it to the wall to reinforce the structure.....
-
+The fresco will be placed above the electrical outlets, on a board fixed to the wall with brackets. Another board will be placed above the fresco to protect it and hold it in place. It will also be fixed to the wall with brackets. 2 boards will be placed on either side of the fresco to fix it completely, screwed into the boards above and below.
 
 ## Maintenance and Upkeep
 
-- Regular cleaning of the acrylic panel to maintain visibility. At least once a week.
-- Routine inspections to identify any missing or damaged cubes, with prompt replacement.
+- Regular cleaning (each monday) to remove dust and maintain the visual appeal of the fresco.
+- Routine inspections (each monday) to identify any missing or damaged cubes, with prompt replacement.
 - Any necessary repairs or replacements will be performed promptly to ensure the longevity of the artwork.
 
-
-
-##  Documentation and Reproduction
-
-- A comprehensive document will be provided detailing the construction process, including cube rotations and arrangements.
-- This documentation will serve as a reference for maintenance, reproduction, or any potential future modifications.
-  
-
-
 ## Software  
-A software developed has been created to distribute the tasks between the teams and help with the actions to take. 
+
+A software developed has been created to distribute the tasks between the teams and help with the actions to take. Such as cube rotation or cube placement.
 
 ### Technology Choice
 
@@ -210,12 +200,16 @@ Python will be used to program the software. The reason for this choice is based
 
 - The division of labor into 36 sections will optimize the construction process for different teams.
 - The use of a specialized software program will facilitate the construction process and improve the accuracy of the final result.
+
 ### Proven Hypotheses
-In our case, Python is the best-suited programming language for developing the software.
+
+In our case, Python is the best-suited programming language to develop the software. It's the one the team knows best, and the one best suited to our needs.
 
 ## Challenges
+
 - Ensuring the structural integrity and stability of the fresco.
 - Balancing artistic expression with technical constraints, and ensuring the final piece effectively represents ALGOSUP's identity.
+- Adapt the fresco to the environment and make it well visible and understandable from the outside.
 
 ## Possible Bugs
 ### 1. Misaligned Cubes:
@@ -244,7 +238,7 @@ In our case, Python is the best-suited programming language for developing the s
 
 **Symptoms:** Observable movement or wobbling of cubes, especially in areas where they are not securely fastened to the support structure.
 
-**Mitigation:** Ensure the support structure is robust and securely fastened. Use appropriate adhesives or fasteners to affix cubes in place, providing stability.
+**Mitigation:** Ensure the support structure is robust and securely fastened before building the fresco in itself. Add new iron angles if the planks struggle to support the fresco. Conduct regular inspections to identify and address any structural issues. 
 
 ---
 
@@ -266,21 +260,17 @@ In our case, Python is the best-suited programming language for developing the s
 
 **Mitigation:** Prioritize the use of damaged cubes for areas where imperfections are less noticeable. Conduct thorough inspections of cubes before placement.
 
-
-
 ## Security Considerations
-The mounting structure will be designed to minimize stress on the cubes and prevent accidental displacement.
-The clear acrylic panel will offer an additional layer of protection and reduce maintenance needs.
 
+The mounting structure will be designed to minimize stress on the cubes and prevent accidental displacement.
 
 ## Success Evaluation
-The success of the project will be determined by the feedback provided by the daily workers of the B3, as well as the degree of similarity between the final image and the original prototype. This evaluation will serve as a crucial indicator of the project's overall success and alignment with the intended vision.
 
+The success of the project will be determined by the feedback provided by the daily workers of the B3 and bystanders, as well as the degree of similarity between the final image and the original prototype. This evaluation will serve as a crucial indicator of the project's overall success and alignment with the intended vision.
 
 ## Conclusion
+
 By adhering to these technical specifications, we aim to create a Rubik's Art Fresco that not only meets ALGOSUP's vision but also stands as a durable and visually captivating representation of the institution's identity.
-
-
 
 ## Glossary
 
