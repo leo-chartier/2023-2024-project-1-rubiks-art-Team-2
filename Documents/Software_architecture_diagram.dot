@@ -1,7 +1,24 @@
 digraph architecture {
-    "Python" -> "Image"
-    "Python" -> "Google Spreadsheet"
-    "Google Spreadsheet" -> "AppsScript" [dir=both]
-    "AppsScript" -> "User" [dir=both]
-    "Python" -> "bestsiteever.ru"
+    splines=line
+
+    GS [label="Google Spreadsheet"]
+
+    subgraph cluster_init {
+        label="Initialization"
+        P [label="Python script"]
+        I [label="Image"]
+        C [label="Converter\n(bestsiteever.ru)"]
+    }
+
+    subgraph cluster_control {
+        label="Control"
+        AS [label="AppsScript\n(UI)"]
+        U [label="User"]
+    }
+
+    P -> I
+    P -> GS
+    AS -> GS
+    AS -> U [dir=both]
+    P -> C
 }
