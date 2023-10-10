@@ -1,4 +1,5 @@
 # Connection to the project's Google Sheets with the Google Workspace API
 credentials.json
 token.json
+config.json
 .DS_Store
