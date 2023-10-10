@@ -42,7 +42,6 @@
   - [Success Evaluation](#success-evaluation)
   - [Conclusion](#conclusion)
   - [Glossary](#glossary)
-- [Glossary](#glossary-1)
 
 </details>
 
@@ -280,10 +279,9 @@ The success of the project will be determined by the feedback provided by the da
 ## Conclusion
 By adhering to these technical specifications, we aim to create a Rubik's Art Fresco that not only meets ALGOSUP's vision but also stands as a durable and visually captivating representation of the institution's identity.
 
-## Glossary 
 
 
-# Glossary
+## Glossary
 
 [^1] **Augmented Reality (AR)**: A technology that overlays digital information (such as images, sounds, or 3D models) onto the real world through a device like a smartphone or AR headset.
 
