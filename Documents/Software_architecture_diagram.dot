@@ -1,0 +1,7 @@
+digraph architecture {
+    "Python" -> "Image"
+    "Python" -> "Google Spreadsheet"
+    "Google Spreadsheet" -> "AppsScript" [dir=both]
+    "AppsScript" -> "User" [dir=both]
+    "Python" -> "bestsiteever.ru"
+}
