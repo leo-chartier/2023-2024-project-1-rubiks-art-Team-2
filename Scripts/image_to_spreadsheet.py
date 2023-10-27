@@ -28,6 +28,9 @@ One of the moves from this rotation is the facelet from U1 moving to B9
 
 
 
+# TODO: Fix other TODOs and add connection to robot
+# TODO: Split the code in multiple files and add documentation
+
 import json
 import os
 try:
@@ -65,8 +68,15 @@ DEFAULT_CONFIG = {
         "offsetX": 0,
         "offsetY": 0
     },
-    "default_front": "green", # Defined by https://bestsiteever.ru/algs_for_mosaic/
-    "default_up": "white", # Defined by https://bestsiteever.ru/algs_for_mosaic/
+    "default_cube": {
+        # Defined by https://bestsiteever.ru/algs_for_mosaic/
+        "F": "green",
+        "B": "blue",
+        "U": "white",
+        "D": "yellow",
+        "L": "orange",
+        "R": "red"
+    },
     "converter_colors": [
         # Defined by https://bestsiteever.ru/algs_for_mosaic/
         [255, 255, 255],
@@ -125,6 +135,56 @@ class Face:
     
     def __repr__(self) -> str:
         return "|".join(self.colors) + " " + self.moves
+
+class Cube:
+    def __init__(self, colors: dict[str, str] | None = None, moves: list[str] | None = None) -> None:
+        assert colors and len(colors) == 54 # TODO: 54 hardcoded
+        self.colors = colors
+        self.moves = moves or []
+
+    @staticmethod
+    def from_mapping(face_to_color: dict[str, str]):
+        colors = {
+            face + str(pos): color
+            for face, color in face_to_color.items()
+            for pos in range(1, 10)
+        }
+        return Cube(colors)
+
+    def get(self, position):
+        return self.colors[position]
+
+    def set(self, position, color):
+        self.colors[position] = color
+
+    def apply(self, rotation):
+        face, direction = rotation[0], (0 if len(rotation) == 1 else "2'".index(rotation[1])) + 1
+        copy = Cube(self.colors.copy(), self.moves + [rotation])
+
+        for _ in range(direction):
+            for old_pos, new_pos in config["moves"][face].items():
+                copy.set(new_pos, self.get(old_pos))
+        
+        return copy
+    
+    def copy(self, next_rotation = None):
+        if next_rotation is None:
+            return Cube(self.colors.copy(), self.moves.copy())
+        return Cube(self.colors.copy(), self.moves.copy() + [next_rotation])
+    
+    def __hash__(self) -> int:
+        return hash("".join(color.value for color in self.colors))
+    
+    def __repr__(self) -> str:
+        return " ".join(str(move) for move in self.moves) + "\n" + "\n".join(
+            "".join(
+                ' ' if face == ' ' else self.get(face + position)[0].upper()
+                for face in faces
+                for position in positions
+            )
+            for faces in [" U  ", "LFRB", " D  "]
+            for positions in ["123", "456", "789"]
+        )
 
 def format_coord(x: int, y: int) -> str:
     # number = x + 1
@@ -369,12 +429,28 @@ def write_to_spreadsheets(moves: list[list[Face]]):
     for y, row in enumerate(reversed(moves)):
         for x, move in enumerate(row):
             i += 1
-            front = config["default_front"]
-            up = config["default_up"]
-            # TODO: Correct orientation
+            
+            cube = Cube.from_mapping(config["default_cube"])
+            m = move.moves
+            # TODO: Apply x' rotation on cube AND moves so that the result is on the front and not on top
+            # Skip full cube rotation
+            if m and m[0].lower() in "xyz":
+                rotation = m.split(' ')[0]
+                m = ' '.join(m.split(' ')[1:])
+                cube = cube.apply(rotation)
+            # TODO: Apply z rotation to have no U turns for the robot
+
+            # Get the colors
+            front = cube.colors["F5"]
+            up = cube.colors["U5"]
             front_rgb = config["colors"][front]
             up_rgb = config["colors"][up]
-            moves_rows_text.append((format_coord(x, len(moves) - 1 - y), "0", front, up, move.moves))
+            if not m:
+                front = ""
+                front_rgb = {"red": 0.5, "green": 0.5, "blue": 0.5}
+
+            # Write content & colors
+            moves_rows_text.append((format_coord(x, len(moves) - 1 - y), "TODO", front, up, m))
             requests.append({
                 "updateCells": {
                     "rows": [
@@ -409,6 +485,29 @@ def write_to_spreadsheets(moves: list[list[Face]]):
                     }
                 }
             })
+            if 'U' in m:
+                # Impossible move for the robot
+                requests.append({
+                    "updateCells": {
+                        "rows": [
+                            {"values": [
+                                {"userEnteredFormat": {"backgroundColor": {
+                                    "red": 1,
+                                    "green": 0,
+                                    "blue": 0
+                                }}}
+                            ]}
+                        ],
+                        "fields": '*',
+                        "range": {
+                            "sheetId": config["moves_id"],
+                            "startRowIndex": i,
+                            "endRowIndex": i + 1,
+                            "startColumnIndex": 4,
+                            "endColumnIndex": 5
+                        }
+                    }
+                })
     
 
     
